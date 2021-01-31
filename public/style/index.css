@@ -63,7 +63,6 @@ main section h3 {
     justify-content: center;
 }
 
-
 main section a {
     border-radius: 10px;
     width: 150px;
@@ -75,5 +74,20 @@ main section a {
     padding: 5px;
     margin: auto;
     margin-top: 1rem; 
-    
+}
+
+main section div {
+    display: flex;
+    justify-content: center;
+}
+
+main section div a  {
+    background-color: transparent;
+    margin: 0px;
+    padding-top: 2rem;
+    width: 50px;
+}
+
+main section div a img {
+    width: 30px;
 }
