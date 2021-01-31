@@ -34,8 +34,6 @@ main section  {
     
 }
 
-
-
 main section h1 {
     font-size: 3rem;
     padding-top: 6rem; 
@@ -46,4 +44,36 @@ main section h2 {
     font-size: 2rem;
     padding-top: 6rem;
     justify-content: center;
+}
+
+main section  .uno {
+    color: white;
+    padding-top: 9rem;
+}
+
+main section p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main section h3 {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    font-weight: normal;
+    justify-content: center;
+}
+
+
+main section a {
+    border-radius: 10px;
+    width: 150px;
+    background-color: #e74919;
+    color: white;
+    cursor: pointer;
+    border-style: none;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: auto;
+    margin-top: 1rem; 
+    
 }
