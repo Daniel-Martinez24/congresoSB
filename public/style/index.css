@@ -108,7 +108,7 @@ main section div a img {
 main div .contenedor {
     background-color: #e2e2e2;
     display: inline-block;
-    width: 35rem;
+    width: 35rem; 
     height: 15rem;
     border-radius: 10px;
     margin: 10px;
