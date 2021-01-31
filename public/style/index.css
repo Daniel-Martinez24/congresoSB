@@ -14,14 +14,10 @@ html {
 }
 
 body {
-    background-color: black;
     text-align: center;
     font-family: 'Inter', sans-serif;
-
     margin: 0%;
 }
-
-
 
 main section  {
     color: white;
@@ -31,7 +27,7 @@ main section  {
     height: 30%;
     padding-left: 200px;
     padding-right: 200px;
-    
+    background-color: black;
 }
 
 main section h1 {
@@ -78,7 +74,8 @@ main section a {
 
 main section div {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    
 }
 
 main section div a  {
@@ -86,8 +83,59 @@ main section div a  {
     margin: 0px;
     padding-top: 2rem;
     width: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main section div a img {
     width: 30px;
+}
+
+
+/* FIN DEL MAIN*/
+
+/* INICIO DE AGENDA*/
+
+
+main div .contenedor {
+    background-color: #e2e2e2;
+    display: inline-block;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 10px;
+}
+
+main div div .contenedor {
+    color: black;
+    width: 300px;
+    text-align: center;
+}
+
+
+main div h2 {
+    color: black;
+    font-size: 3rem;
+    float: left;
+    margin: 1rem;
+}
+
+main div p {
+    color: black;
+    font-size: 3rem;
+    float: left;
+    margin: 1rem;
+    display: flex;
+}
+
+main .contenedor-padre {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    padding-left: 200px;
+    padding-right: 200px;
 }
