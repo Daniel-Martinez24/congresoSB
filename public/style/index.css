@@ -53,13 +53,17 @@
     width: 200px;
     background-color: #e74919;
     color: white;
-    cursor: pointer;
     border-style: none;
     font-size: 1.5rem;
     padding: 5px;
     margin: auto;
     margin-top: 1rem; 
     text-decoration: none;
+}
+.inicio section .boton:hover {
+
+    background-color: #ff3c00;
+    cursor: pointer;
 }
 
 .inicio section div {
