@@ -3,84 +3,13 @@
 @import url("navbar.css");
 @import url("organiza.css");
 
-.inicio {
-    background-color:black;
-    text-align: center;
-    margin: 0%;
+*{
     padding: 0%;
-    margin-top: 8rem;
-    padding-bottom: 100px; 
+    margin: 0%;
+    box-sizing: border-box;
 }
 
-.inicio section  {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 40%;
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
 }
-
-.inicio section h1 {
-    font-size: 3rem;
-    padding-top: 6rem;
-}
-
-.inicio section h2 {
-    font-size: 2rem;
-    padding-top: 6rem;
-    font-weight: normal;
-}
-
-.inicio section .uno {
-    padding-top: 9rem;
-    font-size: 1.3rem;
-}
-
-.inicio section p {
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.inicio section h3 {
-    font-size: 1.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 1rem;
-    font-weight: normal;
-}
-
-.inicio section .boton {
-    border-radius: 10px;
-    width: 200px;
-    background-color: #e74919;
-    color: white;
-    border-style: none;
-    font-size: 1.5rem;
-    padding: 5px;
-    margin: auto;
-    margin-top: 1rem; 
-    text-decoration: none;
-}
-.inicio section .boton:hover {
-
-    background-color: #ff3c00;
-    cursor: pointer;
-}
-
-.inicio section div {
-    display: flex;
-    justify-content: center;
-}
-
-.inicio section .iconos a  {
-    display: flex;
-    margin: 0px;
-    padding: 1rem;
-    width: 50px;
-}
-
-.inicio section div a img {
-    width: 30px;
-}
-/* FIN DEL CSS INICIO\*
-
-
