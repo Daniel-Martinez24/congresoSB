@@ -2,9 +2,9 @@ function TalleresTarjeta(props) {
     return (
         <div className="talleres-tarjetas"> 
             <h2>{props.titulo}</h2>
-            <p>{props.tallerista}</p> 
-            <p>{props.fechaUno}</p>
-            <p>{props.fechaDos}</p>
+            <p id="tallerista">{props.tallerista}</p> 
+            <p id="fechaUno">{props.fechaUno}</p>
+            <p id="fechaDos">{props.fechaDos}</p>
             <a href={props.verMas} > ver mas &gt; </a>
         </div>
     );
