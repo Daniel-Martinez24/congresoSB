@@ -10,38 +10,64 @@ function TalleresTarjeta(props) {
     );
 }
 
-function Talleres() {
-    return (
-        <div> 
+class Talleres extends React.Component {
+    render() {
+        return (
+            <div>
+                {this.props.listaTalleres}
+                <TalleresTarjeta 
+                titulo='asdasdasdasdasdasdasdasd'
+                tallerista='asdasdasdasdasdasdasdasd'
+                fechaUno='asdasdasdasdasdasdasdasd'
+                fechaDos='asdasdasdasdasdasdasdasd'
+                verMas='#'
+                                
+                />
 
-            <TalleresTarjeta 
-            titulo='asdasdasdasdasdasdasdasd'
-            tallerista='asdasdasdasdasdasdasdasd'
-            fechaUno='asdasdasdasdasdasdasdasd'
-            fechaDos='asdasdasdasdasdasdasdasd'
-            verMas='#'
-                            
-            />
+                <TalleresTarjeta 
+                titulo='asdasdasdasdasdasdasdasd'
+                tallerista='asdasdasdasdasdasdasdasd'
+                fechaUno='asdasdasdasdasdasdasdasd'
+                fechaDos='asdasdasdasdasdasdasdasd'
+                verMas='#'
+                                
+                />
 
-            <TalleresTarjeta 
-            titulo='asdasdasdasdasdasdasdasd'
-            tallerista='asdasdasdasdasdasdasdasd'
-            fechaUno='asdasdasdasdasdasdasdasd'
-            fechaDos='asdasdasdasdasdasdasdasd'
-            verMas='#'
-                            
-            />
-
-            <TalleresTarjeta 
-            titulo='asdasdasdasdasdasdasdasd'
-            tallerista='asdasdasdasdasdasdasdasd'
-            fechaUno='asdasdasdasdasdasdasdasd'
-            fechaDos='asdasdasdasdasdasdasdasd'
-            verMas='#'
-                            
-            />
-        </div>
-    );
+                <TalleresTarjeta 
+                titulo='asdasdasdasdasdasdasdasd'
+                tallerista='asdasdasdasdasdasdasdasd'
+                fechaUno='asdasdasdasdasdasdasdasd'
+                fechaDos='asdasdasdasdasdasdasdasd'
+                verMas='#'
+                                
+                />
+            </div>
+        );
+    }
 }
 
-ReactDOM.render(Talleres() , document.getElementById('talleres'));
+const lista = {
+    taller1 : {
+        titulo: 'ndasondoasdnasodna',
+        tallerista: 'asdasdasdasdasdasdasdasd',
+        fechaUno: 'asdasdasdasdasdasdasdasd',
+        fechaDos: 'asdasdasdasdasdasdasdasd',
+        verMas: '#'
+    },
+    taller2 : {
+        titulo: 'ndasondoasdnasodna',
+        tallerista: 'asdasdasdasdasdasdasdasd',
+        fechaUno: 'asdasdasdasdasdasdasdasd',
+        fechaDos: 'asdasdasdasdasdasdasdasd',
+        verMas: '#'
+    },
+    taller3 : {
+        titulo: 'ndasondoasdnasodna',
+        tallerista: 'asdasdasdasdasdasdasdasd',
+        fechaUno: 'asdasdasdasdasdasdasdasd',
+        fechaDos: 'asdasdasdasdasdasdasdasd',
+        verMas: '#'
+    }
+}
+
+ReactDOM.render(<Talleres listaTalleres={'hola'} /> , document.getElementById('talleres'));
