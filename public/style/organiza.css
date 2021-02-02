@@ -22,8 +22,9 @@
 }
 
 .organiza ul .componente-1 img{
-    width: 80%;
+    width: 80vh;
     margin-left: 10rem;
+    justify-content: center;
     
 }
 
