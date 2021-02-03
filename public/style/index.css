@@ -2,6 +2,10 @@
 @import url("main.css");
 @import url("navbar.css");
 @import url("organiza.css");
+@import url("mobile-main.css");
+@import url("mobile-organiza.css");
+
+
 
 *{
     padding: 0%;
