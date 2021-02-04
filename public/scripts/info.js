@@ -30,8 +30,8 @@ const talleres = [
         verMas: '#'
     },
     {
-        titulo: 'Taller de divulgación científica',
-        tallerista: 'Null',
+        titulo: 'Taller Cómo hacer divulgación científica',
+        tallerista: 'Lic. Diana Laura Vázquez Mendoza',
         fechas : [ 'dia 5 17:05', 'dia 7 :16:25' ],
         verMas: '#'
     },
