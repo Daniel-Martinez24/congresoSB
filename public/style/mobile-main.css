@@ -74,11 +74,11 @@
     
     .inicio section .iconos a  {
         display: flex;
-        margin: 0px;
-        padding: 1rem;
+        margin: 10px;
+        justify-content: center;
     }
     
-    .inicio section div a img {
-        width: 7vw;
+    .inicio section div a img { 
+        width: 30px;
     }  
 }
