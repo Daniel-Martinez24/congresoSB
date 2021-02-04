@@ -1,10 +1,15 @@
 function TalleresTarjeta(props) {
+    const listaFechas = props.fechas;
+    const Fechas = listaFechas.map((fechas) => 
+        <li>{fechas}</li>    
+    ); 
     return (
         <div className="talleres-tarjetas"> 
             <h2>{props.titulo}</h2>
             <p id="tallerista">{props.tallerista}</p> 
-            <p id="fechaUno">{props.fechaUno}</p>
-            <p id="fechaDos">{props.fechaDos}</p>
+            
+            <ul>{Fechas} </ul>
+            
             <a href={props.verMas} > ver mas &gt; </a>
         </div>
     );
@@ -17,8 +22,7 @@ function Talleres(props) {
             <TalleresTarjeta 
             titulo={taller.titulo}
             tallerista={taller.tallerista}
-            fechaUno={taller.fechaUno}
-            fechaDos={taller.fechaDos}
+            fechas = {taller.fechas}
             verMas={taller.verMas}
             />
       </li>
@@ -31,28 +35,4 @@ function Talleres(props) {
     );
   }
 
-const lista = [
-    {
-        titulo: 'ndasondoasdnasodna',
-        tallerista: 'asdasdasdasdasdasdasdasd',
-        fechaUno: 'asdasdasdasdasdasdasdasd',
-        fechaDos: 'asdasdasdasdasdasdasdasd',
-        verMas: '#'
-    },
-    {
-        titulo: 'ndasondoasdnasodna',
-        tallerista: 'asdasdasdasdasdasdasdasd',
-        fechaUno: 'asdasdasdasdasdasdasdasd',
-        fechaDos: 'asdasdasdasdasdasdasdasd',
-        verMas: '#'
-    },
-    {
-        titulo: 'ndasondoasdnasodna',
-        tallerista: 'asdasdasdasdasdasdasdasd',
-        fechaUno: 'asdasdasdasdasdasdasdasd',
-        fechaDos: 'asdasdasdasdasdasdasdasd',
-        verMas: '#'
-    }
-]
-
-ReactDOM.render(<Talleres listaTalleres={lista} /> , document.getElementById('talleres'));
+ReactDOM.render(<Talleres listaTalleres={informacion.talleres} /> , document.getElementById('talleres'));
