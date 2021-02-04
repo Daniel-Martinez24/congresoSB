@@ -32,17 +32,22 @@
     
     .organiza ul .componente-2 {
         width: 50%;
-        margin-top: 1rem;
-        padding-right: 80px;
-        text-align: left;
+        margin: 5vw;
+    
     }
     .organiza ul .componente-2 .texto {
         font-size: 1.8rem;
+        text-align: left;
+        padding: 0%;
+        margin: 0%;
+        margin-bottom: 20px;
+        
     }
     
+
     .organiza ul h1 {
         font-size: 1rem;
-        margin: 1rem;
+        margin: 5vh;
     }
     
     .organiza ul img {
