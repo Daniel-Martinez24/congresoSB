@@ -12,19 +12,19 @@ const talleres = [
         verMas: '#'
     },
     {
-        titulo: 'Taller básico de fotografía',
-        tallerista: 'Kassandra Muros',
+        titulo: 'Taller básico de fotografía científica: La ciencia a través de un lente',
+        tallerista: 'C. Kassandra Edith Muros Ramos',
         fechas : [ 'dia 2 14:20', 'dia 3 13:15' ],
         verMas: '#'
     },
     {
-        titulo: 'Taller de Genética',
+        titulo: 'Genética : Un paso fuera del aula.',
         tallerista: 'Ing. Miguel Fernando Espitia Verdugo',
         fechas : [ 'dia 3 18:25', 'dia 5 18:25', 'dia 6 12:10'],
         verMas: '#'
     },
     {
-        titulo: 'Taller de IA para ciencias biológicas',
+        titulo: 'Tu Pokédex en la vida real: Programa tu clasificador de animales con redes neuronales artificiales',
         tallerista: 'Lic. Rodolfo Ferro',
         fechas : [ 'lunes 17:05', ],
         verMas: '#'
