@@ -18,7 +18,7 @@ function TalleresTarjeta(props) {
 function Talleres(props) {
     const infoTalleres = props.listaTalleres;
     const TodosTalleres = infoTalleres.map((taller) =>
-      <li>
+      <li className="todos-los-talleres" >
             <TalleresTarjeta 
             titulo={taller.titulo}
             tallerista={taller.tallerista}
@@ -30,7 +30,7 @@ function Talleres(props) {
     return (
         <div>
             <h1>Talleres</h1>
-            <ul>{TodosTalleres}</ul>
+            <ul id="todos-los-talleres">{TodosTalleres}</ul>
       </div>
     );
   }

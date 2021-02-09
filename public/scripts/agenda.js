@@ -13,9 +13,11 @@ function Charla(props) {
     );
 }
 
-function Agenda(props) {
-    const infoCharlas = props.listaCharlas;
-    const TodasLasCharlas = infoCharlas.map((charla) =>
+function CharlasDia(props) {
+    console.log(props.infoCharlas[0])
+    const charlasDia = props.infoCharlas.filter(charla => charla.fecha === props.dia);
+    
+    const TodasLasCharlas = charlasDia.map((charla) =>
       <li>
             <Charla 
             titulo={charla.titulo}
@@ -28,11 +30,35 @@ function Agenda(props) {
       </li>
     );
     return (
+        <div className="charlas-dia">
+            <h1>{props.dia}</h1>
+            <ul>{TodasLasCharlas}</ul>
+        </div>
+    )
+    
+}
+
+
+function Agenda(props) {
+    const infoCharlas = props.listaCharlas;
+    
+    console.log(props.listaDias[0])
+    const listaDias = props.listaDias.map((dias)=>{
+        <li>
+            <CharlasDia dia={dias} infoCharlas={infoCharlas} />
+        </li>
+    });
+    
+    return (
         <div>
             <h1>Agenda</h1>
-            <ul>{TodasLasCharlas}</ul>
-      </div>
+            <ul>
+                {listaDias}
+            </ul>
+        </div>
     );
   }
 
-  ReactDOM.render(<Agenda listaCharlas={informacion.charlas} /> , document.getElementById('agenda'));
+const listaDias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
+
+ReactDOM.render(<Agenda listaCharlas={informacion.charlas} listaDias={listaDias} /> , document.getElementById('agenda'));
