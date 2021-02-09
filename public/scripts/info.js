@@ -45,26 +45,53 @@ const talleres = [
 
 const charlas = [
     {
-        titulo: 'ndasondoasdnasodna',
-        tallerista: 'asdasdasdasdasdasdasdasd',
-        fechaUno: 'asdasdasdasdasdasdasdasd',
-        fechaDos: 'asdasdasdasdasdasdasdasd',
-        verMas: '#'
+        titulo: 'Moléculas sintéticas para la administración controlada de fármacos en las células',
+        conferencista: 'C. Kassandra Edith Muros Ramos',
+        fecha: 'lunes',
+        horario: '17:05 - 17:05',
+        foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+        id: '#'
     },
     {
-        titulo: 'ndasondoasdnasodna',
-        tallerista: 'asdasdasdasdasdasdasdasd',
-        fechaUno: 'asdasdasdasdasdasdasdasd',
-        fechaDos: 'asdasdasdasdasdasdasdasd',
-        verMas: '#'
+        titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
+        tallerista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+        fecha: 'lunes',
+        horario: '17:05 - 17:05',
+        foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+        id: '#'
     },
     {
-        titulo: 'ndasondoasdnasodna',
-        tallerista: 'asdasdasdasdasdasdasdasd',
-        fechaUno: 'asdasdasdasdasdasdasdasd',
-        fechaDos: 'asdasdasdasdasdasdasdasd',
-        verMas: '#'
-    }
+        titulo: 'Moléculas sintéticas para la administración controlada de fármacos en las células',
+        conferencista: 'C. Kassandra Edith Muros Ramos',
+        fecha: 'martes',
+        horario: '17:05 - 17:05',
+        foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+        id: '#'
+    },
+    {
+        titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
+        tallerista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+        fecha: 'martes',
+        horario: '17:05 - 17:05',
+        foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+        id: '#'
+    },
+    {
+        titulo: 'Moléculas sintéticas para la administración controlada de fármacos en las células',
+        conferencista: 'C. Kassandra Edith Muros Ramos',
+        fecha: 'miercoles',
+        horario: '17:05 - 17:05',
+        foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+        id: '#'
+    },
+    {
+        titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
+        tallerista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+        fecha: 'miercoles',
+        horario: '17:05 - 17:05',
+        foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+        id: '#'
+    },
 ]
 
 
