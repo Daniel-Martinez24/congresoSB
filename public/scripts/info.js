@@ -54,7 +54,7 @@ const charlas = [
     },
     {
         titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
-        tallerista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+        conferencista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
         fecha: 'lunes',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
@@ -70,7 +70,7 @@ const charlas = [
     },
     {
         titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
-        tallerista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+        conferencista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
         fecha: 'martes',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
@@ -86,7 +86,7 @@ const charlas = [
     },
     {
         titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
-        tallerista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+        conferencista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
         fecha: 'miercoles',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
