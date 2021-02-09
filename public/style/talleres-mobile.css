@@ -7,20 +7,41 @@ ul {
 div h1 {
     text-align: center;
     margin-top: 60px;
+    font-size: 1.8rem;
    
 }
 
-body #talleres div ul li  {
+body #talleres div ul .todos-los-talleres  {
     border-radius: 10px;
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 102, 255);
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px;
+    padding-bottom: 20px;
+    list-style: none;
+    height: auto;
 }
 
-.talleres-tarjetas  {
-    
-    border: 1px solid white;
+#talleres h2 {
+    font-weight: 600;
 }
+
+#talleres p {
+    font-weight: 500;
+}
+
+#talleres div ul li {
+    list-style: none;
+    font-weight: 1000;
+}
+#talleres div ul a {
+    text-decoration: none;
+    color: rgb(57, 136, 238);
+    font-weight: bold;
+    margin-top: 40px;
+    position: relative;
+    top: 10px;    
+}
+
