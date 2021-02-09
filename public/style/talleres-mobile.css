@@ -1,27 +1,26 @@
 ul {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 div h1 {
     text-align: center;
-    background-color: black;
+    margin-top: 60px;
+   
 }
 
-#talleres div li  {
-    border-radius: 20px;
+body #talleres div ul li  {
+    border-radius: 10px;
     background-color: white;
     border: 1px solid blue;
-    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     padding: 10px;
-    display: flex;
 }
 
-
-
-
-.talleres-tarjetas ul li {
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
+.talleres-tarjetas  {
+    
+    border: 1px solid white;
 }
