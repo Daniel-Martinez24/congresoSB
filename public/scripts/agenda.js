@@ -14,7 +14,7 @@ function Charla(props) {
 }
 
 function CharlasDia(props) {
-    console.log(props.infoCharlas[0])
+    // console.log(props.infoCharlas[0])
     const charlasDia = props.infoCharlas.filter(charla => charla.fecha === props.dia);
     
     const TodasLasCharlas = charlasDia.map((charla) =>
@@ -42,18 +42,16 @@ function CharlasDia(props) {
 function Agenda(props) {
     const infoCharlas = props.listaCharlas;
     
-    console.log(props.listaDias[0])
-    const listaDias = props.listaDias.map((dias)=>{
-        <li>
-            <CharlasDia dia={dias} infoCharlas={infoCharlas} />
-        </li>
-    });
+    const listDias = props.listaDias;
     
+    const listaPorDias = listDias.map((dias)=>
+        <CharlasDia dia={dias} infoCharlas={infoCharlas}></CharlasDia>
+    );
     return (
         <div>
             <h1>Agenda</h1>
             <ul>
-                {listaDias}
+                {listaPorDias}
             </ul>
         </div>
     );
