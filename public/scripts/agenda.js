@@ -84,3 +84,16 @@ const MenuDia = () => {
 const listaDias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
 
 ReactDOM.render(<Agenda listaCharlas={informacion.charlas} listaDias={listaDias} /> , document.getElementById('agenda'));
+
+// JS para mostrar el menu
+
+const btnSelecionrDia = document.getElementById("mostar-menu");
+
+const mostrarMenuDias = () => {
+    const menu = document.getElementById("seleccionar-dia");
+    console.log(menu.style.display);
+    menu.style.display == 'block' ?
+    menu.style.display = 'none' : menu.style.display = 'block';
+}
+
+btnSelecionrDia.addEventListener("click", function(){ mostrarMenuDias(); });
