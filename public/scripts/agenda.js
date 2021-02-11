@@ -38,8 +38,7 @@ function CharlasDia(props) {
     
 }
 
-
-function Agenda(props) {
+function Charlas(props) {
     const infoCharlas = props.listaCharlas;
     
     const listDias = props.listaDias;
@@ -48,14 +47,39 @@ function Agenda(props) {
         <CharlasDia dia={dias} infoCharlas={infoCharlas}></CharlasDia>
     );
     return (
+        <ul>
+            {listaPorDias}
+        </ul>
+    );
+  }
+
+const MenuDia = () => {
+    return (
+        <div className="menu-dias">
+            <button type="button" id="mostar-menu">dia</button>
+            <select name="seleccionar-dia" id="seleccionar-dia" multiple>
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miercoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+                <option value="sabado">Sabado</option>
+                <option value="domingo">Domingo</option>
+            </select>
+        </div>
+    )
+}
+
+  function Agenda(props) {
+    return (
         <div>
             <h1>Agenda</h1>
-            <ul>
-                {listaPorDias}
-            </ul>
+            <MenuDia />
+            <Charlas listaCharlas={props.listaCharlas} listaDias={props.listaDias} />
         </div>
     );
   }
+
 
 const listaDias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
 
