@@ -1,3 +1,43 @@
 @media only screen and (min-width: 600px) {
-    
+    #talleres .todos-los-talleres  {
+        margin-top: 5%;
+        
+    }
+
+    #talleres .todos-los-talleres .talleres-tarjetas {
+        height: 500px;
+        padding-left: 6rem;
+    }
+
+    #talleres .todos-los-talleres .talleres-tarjetas h2 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: black;  
+    }
+
+    #talleres .todos-los-talleres .talleres-tarjetas #tallerista {
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: rgb(39, 39, 39);
+        margin-top: 5px;
+        margin-bottom: 5rem;
+    }
+
+    #talleres .todos-los-talleres .talleres-tarjetas ul li {
+        color: black;
+        font-weight: bold;
+        list-style: none;
+    }
+
+    #talleres .todos-los-talleres .talleres-tarjetas a {
+        display: flex;
+        width: 200px;
+        text-decoration: none;
+        background-color: #e74919;
+        padding: 7px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 500;
+        margin-top: 200px;
+    }
 }
