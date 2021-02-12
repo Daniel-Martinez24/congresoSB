@@ -8,7 +8,7 @@ function Charla(props) {
             <h2>{props.titulo}</h2>
             <p id="conferencista">Por {props.conferencista}</p> 
             <p id="horario">{props.horario}</p> 
-            <a href={props.id} > ver mas &gt; </a>
+            <a href= {'/charla.html?charlaID=' + props.id} > ver mas &gt; </a>
         </div>
     );
 }

@@ -17,12 +17,14 @@ const idExiste = (infoCharla) => {
 }
 
 const encontrarID = () => {
-    let variable =false ;
+    let seEncontro = false ;
     informacion.charlas.map((charla) => {
-        idExiste(charla);
-        if (charlaID === charla.id) variable = true
+        if (charlaID === charla.id) {
+            seEncontro = true;
+            idExiste(charla);
+        }
     })
-    return variable
+    return seEncontro
 }
 
 const escribirInformacion = (encontrarID) => {
