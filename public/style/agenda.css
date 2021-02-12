@@ -20,6 +20,9 @@
 
 
     /* funcionalidad */
+    #seleccionar-dia {
+        display: none;
+    }
     .charlas-dia {
         display: none;
     }

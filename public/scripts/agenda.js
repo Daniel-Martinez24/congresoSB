@@ -56,7 +56,7 @@ function Charlas(props) {
 const MenuDia = () => {
     return (
         <div className="menu-dias">
-            <button type="button" id="mostar-menu">dia</button>
+            <button type="button" id="mostar-menu">lunes</button>
             <select name="seleccionar-dia" id="seleccionar-dia" multiple>
                 <option value="lunes">Lunes</option>
                 <option value="martes">Martes</option>
@@ -107,3 +107,8 @@ const cambiarDia = (dia) => {
 
 btnMostrarMenuDia.addEventListener("click", function () { mostrarMenuDias(); });
 btnSelecionrDia.addEventListener("change", cambiarDia);
+btnSelecionrDia.addEventListener("change", (e) => {
+    console.log(btnMostrarMenuDia.innerText);
+    btnMostrarMenuDia.innerText = e.target.value;
+    mostrarMenuDias();
+});
