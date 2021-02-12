@@ -47,7 +47,7 @@ function Charlas(props) {
         <CharlasDia dia={dias} infoCharlas={infoCharlas}></CharlasDia>
     );
     return (
-        <ul>
+        <ul className="charlas-list">
             {listaPorDias}
         </ul>
     );
@@ -72,7 +72,7 @@ const MenuDia = () => {
 
   function Agenda(props) {
     return (
-        <div>
+        <div className="Agenda">
             <h1>Agenda</h1>
             <MenuDia />
             <Charlas listaCharlas={props.listaCharlas} listaDias={props.listaDias} />
