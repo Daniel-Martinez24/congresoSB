@@ -50,7 +50,7 @@ const charlas = [
         fecha: 'lunes',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
-        id: '#'
+        id: '1'
     },
     {
         titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
@@ -58,7 +58,7 @@ const charlas = [
         fecha: 'lunes',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
-        id: '#'
+        id: '2'
     },
     {
         titulo: 'Moléculas sintéticas para la administración controlada de fármacos en las células',
@@ -66,7 +66,7 @@ const charlas = [
         fecha: 'martes',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
-        id: '#'
+        id: '3'
     },
     {
         titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
@@ -74,7 +74,7 @@ const charlas = [
         fecha: 'martes',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
-        id: '#'
+        id: '4'
     },
     {
         titulo: 'Moléculas sintéticas para la administración controlada de fármacos en las células',
@@ -82,7 +82,7 @@ const charlas = [
         fecha: 'miercoles',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
-        id: '#'
+        id: '5'
     },
     {
         titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
@@ -90,7 +90,7 @@ const charlas = [
         fecha: 'miercoles',
         horario: '17:05 - 17:05',
         foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
-        id: '#'
+        id: '6'
     },
 ]
 
