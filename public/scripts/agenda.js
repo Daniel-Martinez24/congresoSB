@@ -30,7 +30,7 @@ function CharlasDia(props) {
       </li>
     );
     return (
-        <div className="charlas-dia">
+        <div className="charlas-dia" id={props.dia}>
             <h1>{props.dia}</h1>
             <ul>{TodasLasCharlas}</ul>
         </div>
@@ -87,7 +87,8 @@ ReactDOM.render(<Agenda listaCharlas={informacion.charlas} listaDias={listaDias}
 
 // JS para mostrar el menu
 
-const btnSelecionrDia = document.getElementById("mostar-menu");
+const btnMostrarMenuDia = document.getElementById("mostar-menu");
+const btnSelecionrDia = document.getElementById("seleccionar-dia");
 
 const mostrarMenuDias = () => {
     const menu = document.getElementById("seleccionar-dia");
@@ -96,4 +97,13 @@ const mostrarMenuDias = () => {
     menu.style.display = 'none' : menu.style.display = 'block';
 }
 
-btnSelecionrDia.addEventListener("click", function(){ mostrarMenuDias(); });
+const cambiarDia = (dia) => {
+    const charlasDia = document.getElementsByClassName("charlas-dia");
+    Object.values(charlasDia).map((diaCharla) => {
+        diaCharla.id === dia.target.value ?
+            diaCharla.style.display = 'block' : diaCharla.style.display = 'none';
+    })
+}
+
+btnMostrarMenuDia.addEventListener("click", function () { mostrarMenuDias(); });
+btnSelecionrDia.addEventListener("change", cambiarDia);

@@ -17,4 +17,21 @@
         width: 50%;
         display: flex;
     } 
+
+
+    /* funcionalidad */
+    .charlas-dia {
+        display: none;
+    }
+    #lunes {
+        display: block;
+    }
 }
+
+@media only screen and (min-width: 601px) {
+    /* No quiero que se muestre */
+    .menu-dias{
+        display: none;
+    }
+}
+
