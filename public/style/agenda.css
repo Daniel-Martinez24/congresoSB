@@ -62,6 +62,59 @@
         height: auto;
     }
 
+    #martes {
+        width: 100%;
+        height: auto;
+        margin: 100px;
+
+    }
+
+    #martes h1 {
+        margin: 0 10 10 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;
+    }
+
+
+    #martes ul {
+        display: flex;
+        list-style: none;
+    }
+    #martes ul li {
+        background-color: #C4C4C4;
+        margin: 10px;
+        border-radius: 10px;
+        width: 350px;
+        height: auto;
+    }
+
+    #miercoles ul {
+        display: flex;
+        list-style: none;
+    }
+    #miercoles ul li {
+        background-color: #C4C4C4;
+        margin: 10px;
+        border-radius: 10px;
+        width: 350px;
+        height: auto;
+    }
+
+    #miercoles {
+        width: 100%;
+        height: auto;
+        margin: 100px;
+
+    }
+
+    #miercoles h1 {
+        margin: 0 10 10 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;
+    }
+
     .Charla {
         display: flex;
         flex-wrap: wrap;
@@ -70,6 +123,8 @@
     .Charla h2 {
         width: 60%;
         align-items: center;
+        vertical-align: middle;
+        padding-top: 20px;
     }
 
     .Charla img {
