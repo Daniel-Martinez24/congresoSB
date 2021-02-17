@@ -115,6 +115,115 @@
         line-height: 44.53px;
     }
 
+    #jueves {
+        width: 100%;
+        height: auto;
+        margin: 100px;
+
+    }
+
+    #jueves h1 {
+        margin: 0 10 10 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;
+    }
+
+
+    #jueves ul {
+        display: flex;
+        list-style: none;
+    }
+    #jueves ul li {
+        background-color: #C4C4C4;
+        margin: 10px;
+        border-radius: 10px;
+        width: 350px;
+        height: auto;
+    }
+
+    #viernes {
+        width: 100%;
+        height: auto;
+        margin: 100px;
+
+    }
+
+    #viernes h1 {
+        margin: 0 10 10 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;
+    }
+
+
+    #viernes ul {
+        display: flex;
+        list-style: none;
+    }
+    #viernes ul li {
+        background-color: #C4C4C4;
+        margin: 10px;
+        border-radius: 10px;
+        width: 350px;
+        height: auto;
+    }
+    
+    #sabado {
+        width: 100%;
+        height: auto;
+        margin: 100px;
+
+    }
+
+    #sabado h1 {
+        margin: 0 10 10 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;
+    }
+
+
+    #sabado ul {
+        display: flex;
+        list-style: none;
+    }
+    #sabado ul li {
+        background-color: #C4C4C4;
+        margin: 10px;
+        border-radius: 10px;
+        width: 350px;
+        height: auto;
+    }
+
+    #domingo {
+        width: 100%;
+        height: auto;
+        margin: 100px;
+
+    }
+
+    #domingo h1 {
+        margin: 0 10 10 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;
+    }
+
+
+    #domingo ul {
+        display: flex;
+        list-style: none;
+    }
+    #domingo ul li {
+        background-color: #C4C4C4;
+        margin: 10px;
+        border-radius: 10px;
+        width: 350px;
+        height: auto;
+    }
+
+
     .Charla {
         display: flex;
         flex-wrap: wrap;
