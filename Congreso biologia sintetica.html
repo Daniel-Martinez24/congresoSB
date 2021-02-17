@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/public/index.html -->
+<html data-xadprotection="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Congreso biologia sintetica</title>
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./Congreso biologia sintetica_files/react.production.min.js.descarga"></script>
+	<script src="./Congreso biologia sintetica_files/react-dom.production.min.js.descarga"></script>
+	<script src="./Congreso biologia sintetica_files/babel.min.js.descarga"></script>
+	<script type="text/babel" src="./Congreso biologia sintetica_files/info.js.descarga"></script>
+	<script type="text/babel" src="./Congreso biologia sintetica_files/script.js.descarga"></script>
+	<script type="text/babel" src="./Congreso biologia sintetica_files/agenda.js.descarga"></script>
+<script>'use strict';
+
+var talleres = [{
+    titulo: 'Taller de principios básicos de análisis filogenético',
+    tallerista: 'Dr. Luis José Delaye Arredondo',
+    fechas: ['dai 1 17:05', 'dia 2 17:05'],
+    verMas: '#'
+}, {
+    titulo: 'Taller de Biología Sintética',
+    tallerista: 'Dr. Luis Joel Figueroa Yañez',
+    fechas: ['dai 1 18:25', 'dia 2 18:25', 'dia 3 17:05'],
+    verMas: '#'
+}, {
+    titulo: 'Taller básico de fotografía científica: La ciencia a través de un lente',
+    tallerista: 'C. Kassandra Edith Muros Ramos',
+    fechas: ['dia 2 14:20', 'dia 3 13:15'],
+    verMas: '#'
+}, {
+    titulo: 'Genética : Un paso fuera del aula.',
+    tallerista: 'Ing. Miguel Fernando Espitia Verdugo',
+    fechas: ['dia 3 18:25', 'dia 5 18:25', 'dia 6 12:10'],
+    verMas: '#'
+}, {
+    titulo: 'Tu Pokédex en la vida real: Programa tu clasificador de animales con redes neuronales artificiales',
+    tallerista: 'Lic. Rodolfo Ferro',
+    fechas: ['lunes 17:05'],
+    verMas: '#'
+}, {
+    titulo: 'Taller Cómo hacer divulgación científica',
+    tallerista: 'Lic. Diana Laura Vázquez Mendoza',
+    fechas: ['dia 5 17:05', 'dia 7 :16:25'],
+    verMas: '#'
+}, {
+    titulo: 'Taller de evolución bacteriana',
+    tallerista: 'Mtra. Paz Catalina Gutiérrez Rosas',
+    fechas: ['dia 6 17:05'],
+    verMas: '#'
+}];
+
+var charlas = [{
+    titulo: 'Moléculas sintéticas para la administración controlada de fármacos en las células',
+    conferencista: 'C. Kassandra Edith Muros Ramos',
+    fecha: 'lunes',
+    horario: '17:05 - 17:05',
+    foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+    id: '1'
+}, {
+    titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
+    conferencista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+    fecha: 'lunes',
+    horario: '17:05 - 17:05',
+    foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+    id: '2'
+}, {
+    titulo: 'Moléculas sintéticas para la administración controlada de fármacos en las células',
+    conferencista: 'C. Kassandra Edith Muros Ramos',
+    fecha: 'martes',
+    horario: '17:05 - 17:05',
+    foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+    id: '3'
+}, {
+    titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
+    conferencista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+    fecha: 'martes',
+    horario: '17:05 - 17:05',
+    foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+    id: '4'
+}, {
+    titulo: 'Moléculas sintéticas para la administración controlada de fármacos en las células',
+    conferencista: 'C. Kassandra Edith Muros Ramos',
+    fecha: 'miercoles',
+    horario: '17:05 - 17:05',
+    foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+    id: '5'
+}, {
+    titulo: 'Bioseguridad, valores y riesgos en Biología Sintética',
+    conferencista: 'C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán',
+    fecha: 'miercoles',
+    horario: '17:05 - 17:05',
+    foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+    id: '6'
+}];
+
+var informacion = { talleres: talleres, charlas: charlas };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZm8uanMiXSwibmFtZXMiOlsidGFsbGVyZXMiLCJ0aXR1bG8iLCJ0YWxsZXJpc3RhIiwiZmVjaGFzIiwidmVyTWFzIiwiY2hhcmxhcyIsImNvbmZlcmVuY2lzdGEiLCJmZWNoYSIsImhvcmFyaW8iLCJmb3RvIiwiaWQiLCJpbmZvcm1hY2lvbiJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFNQSxXQUFXLENBQ2I7QUFDSUMsWUFBUSx1REFEWjtBQUVJQyxnQkFBWSxnQ0FGaEI7QUFHSUMsWUFBUyxDQUFFLGFBQUYsRUFBaUIsYUFBakIsQ0FIYjtBQUlJQyxZQUFRO0FBSlosQ0FEYSxFQU9iO0FBQ0lILFlBQVEsOEJBRFo7QUFFSUMsZ0JBQVksOEJBRmhCO0FBR0lDLFlBQVMsQ0FBRSxhQUFGLEVBQWlCLGFBQWpCLEVBQWdDLGFBQWhDLENBSGI7QUFJSUMsWUFBUTtBQUpaLENBUGEsRUFhYjtBQUNJSCxZQUFRLHlFQURaO0FBRUlDLGdCQUFZLGdDQUZoQjtBQUdJQyxZQUFTLENBQUUsYUFBRixFQUFpQixhQUFqQixDQUhiO0FBSUlDLFlBQVE7QUFKWixDQWJhLEVBbUJiO0FBQ0lILFlBQVEsb0NBRFo7QUFFSUMsZ0JBQVksc0NBRmhCO0FBR0lDLFlBQVMsQ0FBRSxhQUFGLEVBQWlCLGFBQWpCLEVBQWdDLGFBQWhDLENBSGI7QUFJSUMsWUFBUTtBQUpaLENBbkJhLEVBeUJiO0FBQ0lILFlBQVEsb0dBRFo7QUFFSUMsZ0JBQVksb0JBRmhCO0FBR0lDLFlBQVMsQ0FBRSxhQUFGLENBSGI7QUFJSUMsWUFBUTtBQUpaLENBekJhLEVBK0JiO0FBQ0lILFlBQVEsMENBRFo7QUFFSUMsZ0JBQVksa0NBRmhCO0FBR0lDLFlBQVMsQ0FBRSxhQUFGLEVBQWlCLGNBQWpCLENBSGI7QUFJSUMsWUFBUTtBQUpaLENBL0JhLEVBcUNiO0FBQ0lILFlBQVEsZ0NBRFo7QUFFSUMsZ0JBQVksb0NBRmhCO0FBR0lDLFlBQVMsQ0FBRSxhQUFGLENBSGI7QUFJSUMsWUFBUTtBQUpaLENBckNhLENBQWpCOztBQTZDQSxJQUFNQyxVQUFVLENBQ1o7QUFDSUosWUFBUSxtRkFEWjtBQUVJSyxtQkFBZSxnQ0FGbkI7QUFHSUMsV0FBTyxPQUhYO0FBSUlDLGFBQVMsZUFKYjtBQUtJQyxVQUFNLGlHQUxWO0FBTUlDLFFBQUk7QUFOUixDQURZLEVBU1o7QUFDSVQsWUFBUSx1REFEWjtBQUVJSyxtQkFBZSxtREFGbkI7QUFHSUMsV0FBTyxPQUhYO0FBSUlDLGFBQVMsZUFKYjtBQUtJQyxVQUFNLGlHQUxWO0FBTUlDLFFBQUk7QUFOUixDQVRZLEVBaUJaO0FBQ0lULFlBQVEsbUZBRFo7QUFFSUssbUJBQWUsZ0NBRm5CO0FBR0lDLFdBQU8sUUFIWDtBQUlJQyxhQUFTLGVBSmI7QUFLSUMsVUFBTSxpR0FMVjtBQU1JQyxRQUFJO0FBTlIsQ0FqQlksRUF5Qlo7QUFDSVQsWUFBUSx1REFEWjtBQUVJSyxtQkFBZSxtREFGbkI7QUFHSUMsV0FBTyxRQUhYO0FBSUlDLGFBQVMsZUFKYjtBQUtJQyxVQUFNLGlHQUxWO0FBTUlDLFFBQUk7QUFOUixDQXpCWSxFQWlDWjtBQUNJVCxZQUFRLG1GQURaO0FBRUlLLG1CQUFlLGdDQUZuQjtBQUdJQyxXQUFPLFdBSFg7QUFJSUMsYUFBUyxlQUpiO0FBS0lDLFVBQU0saUdBTFY7QUFNSUMsUUFBSTtBQU5SLENBakNZLEVBeUNaO0FBQ0lULFlBQVEsdURBRFo7QUFFSUssbUJBQWUsbURBRm5CO0FBR0lDLFdBQU8sV0FIWDtBQUlJQyxhQUFTLGVBSmI7QUFLSUMsVUFBTSxpR0FMVjtBQU1JQyxRQUFJO0FBTlIsQ0F6Q1ksQ0FBaEI7O0FBb0RBLElBQU1DLGNBQWMsRUFBQ1gsa0JBQUQsRUFBV0ssZ0JBQVgsRUFBcEIiLCJmaWxlIjoiaW5mby5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHRhbGxlcmVzID0gW1xyXG4gICAge1xyXG4gICAgICAgIHRpdHVsbzogJ1RhbGxlciBkZSBwcmluY2lwaW9zIGLDoXNpY29zIGRlIGFuw6FsaXNpcyBmaWxvZ2Vuw6l0aWNvJyxcclxuICAgICAgICB0YWxsZXJpc3RhOiAnRHIuIEx1aXMgSm9zw6kgRGVsYXllIEFycmVkb25kbycsXHJcbiAgICAgICAgZmVjaGFzIDogWyAnZGFpIDEgMTc6MDUnLCAnZGlhIDIgMTc6MDUnIF0sXHJcbiAgICAgICAgdmVyTWFzOiAnIydcclxuICAgIH0sXHJcbiAgICB7XHJcbiAgICAgICAgdGl0dWxvOiAnVGFsbGVyIGRlIEJpb2xvZ8OtYSBTaW50w6l0aWNhJyxcclxuICAgICAgICB0YWxsZXJpc3RhOiAnRHIuIEx1aXMgSm9lbCBGaWd1ZXJvYSBZYcOxZXonLFxyXG4gICAgICAgIGZlY2hhcyA6IFsgJ2RhaSAxIDE4OjI1JywgJ2RpYSAyIDE4OjI1JywgJ2RpYSAzIDE3OjA1J10sXHJcbiAgICAgICAgdmVyTWFzOiAnIydcclxuICAgIH0sXHJcbiAgICB7XHJcbiAgICAgICAgdGl0dWxvOiAnVGFsbGVyIGLDoXNpY28gZGUgZm90b2dyYWbDrWEgY2llbnTDrWZpY2E6IExhIGNpZW5jaWEgYSB0cmF2w6lzIGRlIHVuIGxlbnRlJyxcclxuICAgICAgICB0YWxsZXJpc3RhOiAnQy4gS2Fzc2FuZHJhIEVkaXRoIE11cm9zIFJhbW9zJyxcclxuICAgICAgICBmZWNoYXMgOiBbICdkaWEgMiAxNDoyMCcsICdkaWEgMyAxMzoxNScgXSxcclxuICAgICAgICB2ZXJNYXM6ICcjJ1xyXG4gICAgfSxcclxuICAgIHtcclxuICAgICAgICB0aXR1bG86ICdHZW7DqXRpY2EgOiBVbiBwYXNvIGZ1ZXJhIGRlbCBhdWxhLicsXHJcbiAgICAgICAgdGFsbGVyaXN0YTogJ0luZy4gTWlndWVsIEZlcm5hbmRvIEVzcGl0aWEgVmVyZHVnbycsXHJcbiAgICAgICAgZmVjaGFzIDogWyAnZGlhIDMgMTg6MjUnLCAnZGlhIDUgMTg6MjUnLCAnZGlhIDYgMTI6MTAnXSxcclxuICAgICAgICB2ZXJNYXM6ICcjJ1xyXG4gICAgfSxcclxuICAgIHtcclxuICAgICAgICB0aXR1bG86ICdUdSBQb2vDqWRleCBlbiBsYSB2aWRhIHJlYWw6IFByb2dyYW1hIHR1IGNsYXNpZmljYWRvciBkZSBhbmltYWxlcyBjb24gcmVkZXMgbmV1cm9uYWxlcyBhcnRpZmljaWFsZXMnLFxyXG4gICAgICAgIHRhbGxlcmlzdGE6ICdMaWMuIFJvZG9sZm8gRmVycm8nLFxyXG4gICAgICAgIGZlY2hhcyA6IFsgJ2x1bmVzIDE3OjA1JywgXSxcclxuICAgICAgICB2ZXJNYXM6ICcjJ1xyXG4gICAgfSxcclxuICAgIHtcclxuICAgICAgICB0aXR1bG86ICdUYWxsZXIgQ8OzbW8gaGFjZXIgZGl2dWxnYWNpw7NuIGNpZW50w61maWNhJyxcclxuICAgICAgICB0YWxsZXJpc3RhOiAnTGljLiBEaWFuYSBMYXVyYSBWw6F6cXVleiBNZW5kb3phJyxcclxuICAgICAgICBmZWNoYXMgOiBbICdkaWEgNSAxNzowNScsICdkaWEgNyA6MTY6MjUnIF0sXHJcbiAgICAgICAgdmVyTWFzOiAnIydcclxuICAgIH0sXHJcbiAgICB7XHJcbiAgICAgICAgdGl0dWxvOiAnVGFsbGVyIGRlIGV2b2x1Y2nDs24gYmFjdGVyaWFuYScsXHJcbiAgICAgICAgdGFsbGVyaXN0YTogJ010cmEuIFBheiBDYXRhbGluYSBHdXRpw6lycmV6IFJvc2FzJyxcclxuICAgICAgICBmZWNoYXMgOiBbICdkaWEgNiAxNzowNScsXSxcclxuICAgICAgICB2ZXJNYXM6ICcjJ1xyXG4gICAgfSxcclxuXVxyXG5cclxuY29uc3QgY2hhcmxhcyA9IFtcclxuICAgIHtcclxuICAgICAgICB0aXR1bG86ICdNb2zDqWN1bGFzIHNpbnTDqXRpY2FzIHBhcmEgbGEgYWRtaW5pc3RyYWNpw7NuIGNvbnRyb2xhZGEgZGUgZsOhcm1hY29zIGVuIGxhcyBjw6lsdWxhcycsXHJcbiAgICAgICAgY29uZmVyZW5jaXN0YTogJ0MuIEthc3NhbmRyYSBFZGl0aCBNdXJvcyBSYW1vcycsXHJcbiAgICAgICAgZmVjaGE6ICdsdW5lcycsXHJcbiAgICAgICAgaG9yYXJpbzogJzE3OjA1IC0gMTc6MDUnLFxyXG4gICAgICAgIGZvdG86ICdodHRwczovL2kyLndwLmNvbS9pbnN0eWxlLm14L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIwLzA0L2FpbG9yLW1vb24uanBnP3Jlc2l6ZT0xMDI0JTJDMTAyNCZzc2w9MScsXHJcbiAgICAgICAgaWQ6ICcxJ1xyXG4gICAgfSxcclxuICAgIHtcclxuICAgICAgICB0aXR1bG86ICdCaW9zZWd1cmlkYWQsIHZhbG9yZXMgeSByaWVzZ29zIGVuIEJpb2xvZ8OtYSBTaW50w6l0aWNhJyxcclxuICAgICAgICBjb25mZXJlbmNpc3RhOiAnQy4gQ29uc3VlbG8gUnV0aCBMb2F5emEgVmVkaWEgeSBDLiBNYXJjZWxhIEZhcmbDoW4nLFxyXG4gICAgICAgIGZlY2hhOiAnbHVuZXMnLFxyXG4gICAgICAgIGhvcmFyaW86ICcxNzowNSAtIDE3OjA1JyxcclxuICAgICAgICBmb3RvOiAnaHR0cHM6Ly9pMi53cC5jb20vaW5zdHlsZS5teC93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wNC9haWxvci1tb29uLmpwZz9yZXNpemU9MTAyNCUyQzEwMjQmc3NsPTEnLFxyXG4gICAgICAgIGlkOiAnMidcclxuICAgIH0sXHJcbiAgICB7XHJcbiAgICAgICAgdGl0dWxvOiAnTW9sw6ljdWxhcyBzaW50w6l0aWNhcyBwYXJhIGxhIGFkbWluaXN0cmFjacOzbiBjb250cm9sYWRhIGRlIGbDoXJtYWNvcyBlbiBsYXMgY8OpbHVsYXMnLFxyXG4gICAgICAgIGNvbmZlcmVuY2lzdGE6ICdDLiBLYXNzYW5kcmEgRWRpdGggTXVyb3MgUmFtb3MnLFxyXG4gICAgICAgIGZlY2hhOiAnbWFydGVzJyxcclxuICAgICAgICBob3JhcmlvOiAnMTc6MDUgLSAxNzowNScsXHJcbiAgICAgICAgZm90bzogJ2h0dHBzOi8vaTIud3AuY29tL2luc3R5bGUubXgvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDQvYWlsb3ItbW9vbi5qcGc/cmVzaXplPTEwMjQlMkMxMDI0JnNzbD0xJyxcclxuICAgICAgICBpZDogJzMnXHJcbiAgICB9LFxyXG4gICAge1xyXG4gICAgICAgIHRpdHVsbzogJ0Jpb3NlZ3VyaWRhZCwgdmFsb3JlcyB5IHJpZXNnb3MgZW4gQmlvbG9nw61hIFNpbnTDqXRpY2EnLFxyXG4gICAgICAgIGNvbmZlcmVuY2lzdGE6ICdDLiBDb25zdWVsbyBSdXRoIExvYXl6YSBWZWRpYSB5IEMuIE1hcmNlbGEgRmFyZsOhbicsXHJcbiAgICAgICAgZmVjaGE6ICdtYXJ0ZXMnLFxyXG4gICAgICAgIGhvcmFyaW86ICcxNzowNSAtIDE3OjA1JyxcclxuICAgICAgICBmb3RvOiAnaHR0cHM6Ly9pMi53cC5jb20vaW5zdHlsZS5teC93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wNC9haWxvci1tb29uLmpwZz9yZXNpemU9MTAyNCUyQzEwMjQmc3NsPTEnLFxyXG4gICAgICAgIGlkOiAnNCdcclxuICAgIH0sXHJcbiAgICB7XHJcbiAgICAgICAgdGl0dWxvOiAnTW9sw6ljdWxhcyBzaW50w6l0aWNhcyBwYXJhIGxhIGFkbWluaXN0cmFjacOzbiBjb250cm9sYWRhIGRlIGbDoXJtYWNvcyBlbiBsYXMgY8OpbHVsYXMnLFxyXG4gICAgICAgIGNvbmZlcmVuY2lzdGE6ICdDLiBLYXNzYW5kcmEgRWRpdGggTXVyb3MgUmFtb3MnLFxyXG4gICAgICAgIGZlY2hhOiAnbWllcmNvbGVzJyxcclxuICAgICAgICBob3JhcmlvOiAnMTc6MDUgLSAxNzowNScsXHJcbiAgICAgICAgZm90bzogJ2h0dHBzOi8vaTIud3AuY29tL2luc3R5bGUubXgvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDQvYWlsb3ItbW9vbi5qcGc/cmVzaXplPTEwMjQlMkMxMDI0JnNzbD0xJyxcclxuICAgICAgICBpZDogJzUnXHJcbiAgICB9LFxyXG4gICAge1xyXG4gICAgICAgIHRpdHVsbzogJ0Jpb3NlZ3VyaWRhZCwgdmFsb3JlcyB5IHJpZXNnb3MgZW4gQmlvbG9nw61hIFNpbnTDqXRpY2EnLFxyXG4gICAgICAgIGNvbmZlcmVuY2lzdGE6ICdDLiBDb25zdWVsbyBSdXRoIExvYXl6YSBWZWRpYSB5IEMuIE1hcmNlbGEgRmFyZsOhbicsXHJcbiAgICAgICAgZmVjaGE6ICdtaWVyY29sZXMnLFxyXG4gICAgICAgIGhvcmFyaW86ICcxNzowNSAtIDE3OjA1JyxcclxuICAgICAgICBmb3RvOiAnaHR0cHM6Ly9pMi53cC5jb20vaW5zdHlsZS5teC93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wNC9haWxvci1tb29uLmpwZz9yZXNpemU9MTAyNCUyQzEwMjQmc3NsPTEnLFxyXG4gICAgICAgIGlkOiAnNidcclxuICAgIH0sXHJcbl1cclxuXHJcblxyXG5jb25zdCBpbmZvcm1hY2lvbiA9IHt0YWxsZXJlcywgY2hhcmxhc30iXX0=</script><script>"use strict";
+
+var menu = document.getElementById("menu");
+var header = document.getElementsByClassName("header-right");
+var link_a_secciones = header[0].getElementsByTagName("a");
+
+var headerAparecer = function headerAparecer() {
+    var header = document.getElementsByTagName("header");
+    header[0].style.display == 'block' ? header[0].style.display = 'none' : header[0].style.display = 'block';
+};
+
+menu.addEventListener("click", function () {
+    headerAparecer();
+});
+
+if (screen.width < 600) {
+    Object.values(link_a_secciones).map(function (links) {
+        return links.addEventListener("click", function () {
+            headerAparecer();
+        });
+    });
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjcmlwdC5qcyJdLCJuYW1lcyI6WyJtZW51IiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCIsImhlYWRlciIsImdldEVsZW1lbnRzQnlDbGFzc05hbWUiLCJsaW5rX2Ffc2VjY2lvbmVzIiwiZ2V0RWxlbWVudHNCeVRhZ05hbWUiLCJoZWFkZXJBcGFyZWNlciIsInN0eWxlIiwiZGlzcGxheSIsImFkZEV2ZW50TGlzdGVuZXIiLCJzY3JlZW4iLCJ3aWR0aCIsIk9iamVjdCIsInZhbHVlcyIsIm1hcCIsImxpbmtzIl0sIm1hcHBpbmdzIjoiOztBQUFBLElBQU1BLE9BQU9DLFNBQVNDLGNBQVQsQ0FBd0IsTUFBeEIsQ0FBYjtBQUNBLElBQU1DLFNBQVNGLFNBQVNHLHNCQUFULENBQWdDLGNBQWhDLENBQWY7QUFDQSxJQUFNQyxtQkFBbUJGLE9BQU8sQ0FBUCxFQUFVRyxvQkFBVixDQUErQixHQUEvQixDQUF6Qjs7QUFFQSxJQUFNQyxpQkFBaUIsU0FBakJBLGNBQWlCLEdBQU07QUFDekIsUUFBTUosU0FBU0YsU0FBU0ssb0JBQVQsQ0FBOEIsUUFBOUIsQ0FBZjtBQUNBSCxXQUFPLENBQVAsRUFBVUssS0FBVixDQUFnQkMsT0FBaEIsSUFBMkIsT0FBM0IsR0FDQU4sT0FBTyxDQUFQLEVBQVVLLEtBQVYsQ0FBZ0JDLE9BQWhCLEdBQTBCLE1BRDFCLEdBQ21DTixPQUFPLENBQVAsRUFBVUssS0FBVixDQUFnQkMsT0FBaEIsR0FBMEIsT0FEN0Q7QUFFSCxDQUpEOztBQU1BVCxLQUFLVSxnQkFBTCxDQUFzQixPQUF0QixFQUErQixZQUFVO0FBQUVIO0FBQW1CLENBQTlEOztBQUVBLElBQUlJLE9BQU9DLEtBQVAsR0FBZSxHQUFuQixFQUF3QjtBQUNwQkMsV0FBT0MsTUFBUCxDQUFjVCxnQkFBZCxFQUFnQ1UsR0FBaEMsQ0FBb0M7QUFBQSxlQUFTQyxNQUFNTixnQkFBTixDQUF1QixPQUF2QixFQUFnQyxZQUFNO0FBQUNIO0FBQWtCLFNBQXpELENBQVQ7QUFBQSxLQUFwQztBQUNIIiwiZmlsZSI6InNjcmlwdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IG1lbnUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcIm1lbnVcIik7XHJcbmNvbnN0IGhlYWRlciA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJoZWFkZXItcmlnaHRcIik7XHJcbmNvbnN0IGxpbmtfYV9zZWNjaW9uZXMgPSBoZWFkZXJbMF0uZ2V0RWxlbWVudHNCeVRhZ05hbWUoXCJhXCIpO1xyXG5cclxuY29uc3QgaGVhZGVyQXBhcmVjZXIgPSAoKSA9PiB7XHJcbiAgICBjb25zdCBoZWFkZXIgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZShcImhlYWRlclwiKTtcclxuICAgIGhlYWRlclswXS5zdHlsZS5kaXNwbGF5ID09ICdibG9jaycgP1xyXG4gICAgaGVhZGVyWzBdLnN0eWxlLmRpc3BsYXkgPSAnbm9uZScgOiBoZWFkZXJbMF0uc3R5bGUuZGlzcGxheSA9ICdibG9jayc7XHJcbn1cclxuXHJcbm1lbnUuYWRkRXZlbnRMaXN0ZW5lcihcImNsaWNrXCIsIGZ1bmN0aW9uKCl7IGhlYWRlckFwYXJlY2VyKCk7IH0pO1xyXG5cclxuaWYgKHNjcmVlbi53aWR0aCA8IDYwMCkge1xyXG4gICAgT2JqZWN0LnZhbHVlcyhsaW5rX2Ffc2VjY2lvbmVzKS5tYXAobGlua3MgPT4gbGlua3MuYWRkRXZlbnRMaXN0ZW5lcihcImNsaWNrXCIsICgpID0+IHtoZWFkZXJBcGFyZWNlcigpO30gKSk7XHJcbn1cclxuIl19</script><script>"use strict";
+
+// Agenda
+
+function Charla(props) {
+    return React.createElement(
+        "div",
+        { className: "Charla" },
+        React.createElement("img", { src: props.foto }),
+        React.createElement(
+            "h2",
+            null,
+            props.titulo
+        ),
+        React.createElement(
+            "p",
+            { id: "conferencista" },
+            "Por ",
+            props.conferencista
+        ),
+        React.createElement(
+            "p",
+            { id: "horario" },
+            props.horario
+        ),
+        React.createElement(
+            "a",
+            { href: '/charla.html?charlaID=' + props.id },
+            " ver mas > "
+        )
+    );
+}
+
+function CharlasDia(props) {
+    // console.log(props.infoCharlas[0])
+    var charlasDia = props.infoCharlas.filter(function (charla) {
+        return charla.fecha === props.dia;
+    });
+
+    var TodasLasCharlas = charlasDia.map(function (charla) {
+        return React.createElement(
+            "li",
+            null,
+            React.createElement(Charla, {
+                titulo: charla.titulo,
+                foto: charla.foto,
+                conferencista: charla.conferencista,
+                fecha: charla.fecha,
+                horario: charla.horario,
+                id: charla.id
+            })
+        );
+    });
+    return React.createElement(
+        "div",
+        { className: "charlas-dia", id: props.dia },
+        React.createElement(
+            "h1",
+            null,
+            props.dia
+        ),
+        React.createElement(
+            "ul",
+            null,
+            TodasLasCharlas
+        )
+    );
+}
+
+function Charlas(props) {
+    var infoCharlas = props.listaCharlas;
+
+    var listDias = props.listaDias;
+
+    var listaPorDias = listDias.map(function (dias) {
+        return React.createElement(CharlasDia, { dia: dias, infoCharlas: infoCharlas });
+    });
+    return React.createElement(
+        "ul",
+        { className: "charlas-list" },
+        listaPorDias
+    );
+}
+
+var MenuDia = function MenuDia() {
+    return React.createElement(
+        "div",
+        { className: "menu-dias" },
+        React.createElement(
+            "button",
+            { type: "button", id: "mostar-menu" },
+            "lunes"
+        ),
+        React.createElement(
+            "select",
+            { name: "seleccionar-dia", id: "seleccionar-dia", multiple: true },
+            React.createElement(
+                "option",
+                { value: "lunes" },
+                "Lunes"
+            ),
+            React.createElement(
+                "option",
+                { value: "martes" },
+                "Martes"
+            ),
+            React.createElement(
+                "option",
+                { value: "miercoles" },
+                "Miercoles"
+            ),
+            React.createElement(
+                "option",
+                { value: "jueves" },
+                "Jueves"
+            ),
+            React.createElement(
+                "option",
+                { value: "viernes" },
+                "Viernes"
+            ),
+            React.createElement(
+                "option",
+                { value: "sabado" },
+                "Sabado"
+            ),
+            React.createElement(
+                "option",
+                { value: "domingo" },
+                "Domingo"
+            )
+        )
+    );
+};
+
+function Agenda(props) {
+    return React.createElement(
+        "div",
+        { className: "Agenda" },
+        React.createElement(
+            "h1",
+            null,
+            "Agenda"
+        ),
+        React.createElement(MenuDia, null),
+        React.createElement(Charlas, { listaCharlas: props.listaCharlas, listaDias: props.listaDias })
+    );
+}
+
+var listaDias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
+
+ReactDOM.render(React.createElement(Agenda, { listaCharlas: informacion.charlas, listaDias: listaDias }), document.getElementById('agenda'));
+
+// JS para mostrar el menu
+
+var btnMostrarMenuDia = document.getElementById("mostar-menu");
+var btnSelecionrDia = document.getElementById("seleccionar-dia");
+
+var mostrarMenuDias = function mostrarMenuDias() {
+    var menu = document.getElementById("seleccionar-dia");
+    console.log(menu.style.display);
+    menu.style.display == 'block' ? menu.style.display = 'none' : menu.style.display = 'block';
+};
+
+var cambiarDia = function cambiarDia(dia) {
+    var charlasDia = document.getElementsByClassName("charlas-dia");
+    Object.values(charlasDia).map(function (diaCharla) {
+        diaCharla.id === dia.target.value ? diaCharla.style.display = 'block' : diaCharla.style.display = 'none';
+    });
+};
+
+btnMostrarMenuDia.addEventListener("click", function () {
+    mostrarMenuDias();
+});
+btnSelecionrDia.addEventListener("change", cambiarDia);
+btnSelecionrDia.addEventListener("change", function (e) {
+    console.log(btnMostrarMenuDia.innerText);
+    btnMostrarMenuDia.innerText = e.target.value;
+    mostrarMenuDias();
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFnZW5kYS5qcyJdLCJuYW1lcyI6WyJDaGFybGEiLCJwcm9wcyIsImZvdG8iLCJ0aXR1bG8iLCJjb25mZXJlbmNpc3RhIiwiaG9yYXJpbyIsImlkIiwiQ2hhcmxhc0RpYSIsImNoYXJsYXNEaWEiLCJpbmZvQ2hhcmxhcyIsImZpbHRlciIsImNoYXJsYSIsImZlY2hhIiwiZGlhIiwiVG9kYXNMYXNDaGFybGFzIiwibWFwIiwiQ2hhcmxhcyIsImxpc3RhQ2hhcmxhcyIsImxpc3REaWFzIiwibGlzdGFEaWFzIiwibGlzdGFQb3JEaWFzIiwiZGlhcyIsIk1lbnVEaWEiLCJBZ2VuZGEiLCJSZWFjdERPTSIsInJlbmRlciIsImluZm9ybWFjaW9uIiwiY2hhcmxhcyIsImRvY3VtZW50IiwiZ2V0RWxlbWVudEJ5SWQiLCJidG5Nb3N0cmFyTWVudURpYSIsImJ0blNlbGVjaW9uckRpYSIsIm1vc3RyYXJNZW51RGlhcyIsIm1lbnUiLCJjb25zb2xlIiwibG9nIiwic3R5bGUiLCJkaXNwbGF5IiwiY2FtYmlhckRpYSIsImdldEVsZW1lbnRzQnlDbGFzc05hbWUiLCJPYmplY3QiLCJ2YWx1ZXMiLCJkaWFDaGFybGEiLCJ0YXJnZXQiLCJ2YWx1ZSIsImFkZEV2ZW50TGlzdGVuZXIiLCJlIiwiaW5uZXJUZXh0Il0sIm1hcHBpbmdzIjoiOztBQUNBOztBQUVBLFNBQVNBLE1BQVQsQ0FBZ0JDLEtBQWhCLEVBQXVCO0FBQ25CLFdBQ0k7QUFBQTtBQUFBLFVBQUssV0FBVSxRQUFmO0FBQ0kscUNBQUssS0FBS0EsTUFBTUMsSUFBaEIsR0FESjtBQUVJO0FBQUE7QUFBQTtBQUFLRCxrQkFBTUU7QUFBWCxTQUZKO0FBR0k7QUFBQTtBQUFBLGNBQUcsSUFBRyxlQUFOO0FBQUE7QUFBMkJGLGtCQUFNRztBQUFqQyxTQUhKO0FBSUk7QUFBQTtBQUFBLGNBQUcsSUFBRyxTQUFOO0FBQWlCSCxrQkFBTUk7QUFBdkIsU0FKSjtBQUtJO0FBQUE7QUFBQSxjQUFHLE1BQU8sMkJBQTJCSixNQUFN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c0JBQWtCaUIsU0FBbEIsR0FBOEJELEVBQUVILE1BQUYsQ0FBU0MsS0FBdkM7QUFDQVo7QUFDSCxDQUpEIiwiZmlsZSI6ImFnZW5kYS5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4vLyBBZ2VuZGFcclxuXHJcbmZ1bmN0aW9uIENoYXJsYShwcm9wcykge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIkNoYXJsYVwiPiBcclxuICAgICAgICAgICAgPGltZyBzcmM9e3Byb3BzLmZvdG99PjwvaW1nPlxyXG4gICAgICAgICAgICA8aDI+e3Byb3BzLnRpdHVsb308L2gyPlxyXG4gICAgICAgICAgICA8cCBpZD1cImNvbmZlcmVuY2lzdGFcIj5Qb3Ige3Byb3BzLmNvbmZlcmVuY2lzdGF9PC9wPiBcclxuICAgICAgICAgICAgPHAgaWQ9XCJob3JhcmlvXCI+e3Byb3BzLmhvcmFyaW99PC9wPiBcclxuICAgICAgICAgICAgPGEgaHJlZj0geycvY2hhcmxhLmh0bWw/Y2hhcmxhSUQ9JyArIHByb3BzLmlkfSA+IHZlciBtYXMgJmd0OyA8L2E+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApO1xyXG59XHJcblxyXG5mdW5jdGlvbiBDaGFybGFzRGlhKHByb3BzKSB7XHJcbiAgICAvLyBjb25zb2xlLmxvZyhwcm9wcy5pbmZvQ2hhcmxhc1swXSlcclxuICAgIGNvbnN0IGNoYXJsYXNEaWEgPSBwcm9wcy5pbmZvQ2hhcmxhcy5maWx0ZXIoY2hhcmxhID0+IGNoYXJsYS5mZWNoYSA9PT0gcHJvcHMuZGlhKTtcclxuICAgIFxyXG4gICAgY29uc3QgVG9kYXNMYXNDaGFybGFzID0gY2hhcmxhc0RpYS5tYXAoKGNoYXJsYSkgPT5cclxuICAgICAgPGxpPlxyXG4gICAgICAgICAgICA8Q2hhcmxhIFxyXG4gICAgICAgICAgICB0aXR1bG89e2NoYXJsYS50aXR1bG99XHJcbiAgICAgICAgICAgIGZvdG8gPSB7Y2hhcmxhLmZvdG99XHJcbiAgICAgICAgICAgIGNvbmZlcmVuY2lzdGE9e2NoYXJsYS5jb25mZXJlbmNpc3RhfVxyXG4gICAgICAgICAgICBmZWNoYSA9IHtjaGFybGEuZmVjaGF9XHJcbiAgICAgICAgICAgIGhvcmFyaW8gPSB7Y2hhcmxhLmhvcmFyaW99XHJcbiAgICAgICAgICAgIGlkPXtjaGFybGEuaWR9XHJcbiAgICAgICAgICAgIC8+XHJcbiAgICAgIDwvbGk+XHJcbiAgICApO1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNoYXJsYXMtZGlhXCIgaWQ9e3Byb3BzLmRpYX0+XHJcbiAgICAgICAgICAgIDxoMT57cHJvcHMuZGlhfTwvaDE+XHJcbiAgICAgICAgICAgIDx1bD57VG9kYXNMYXNDaGFybGFzfTwvdWw+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcbiAgICBcclxufVxyXG5cclxuZnVuY3Rpb24gQ2hhcmxhcyhwcm9wcykge1xyXG4gICAgY29uc3QgaW5mb0NoYXJsYXMgPSBwcm9wcy5saXN0YUNoYXJsYXM7XHJcbiAgICBcclxuICAgIGNvbnN0IGxpc3REaWFzID0gcHJvcHMubGlzdGFEaWFzO1xyXG4gICAgXHJcbiAgICBjb25zdCBsaXN0YVBvckRpYXMgPSBsaXN0RGlhcy5tYXAoKGRpYXMpPT5cclxuICAgICAgICA8Q2hhcmxhc0RpYSBkaWE9e2RpYXN9IGluZm9DaGFybGFzPXtpbmZvQ2hhcmxhc30+PC9DaGFybGFzRGlhPlxyXG4gICAgKTtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPHVsIGNsYXNzTmFtZT1cImNoYXJsYXMtbGlzdFwiPlxyXG4gICAgICAgICAgICB7bGlzdGFQb3JEaWFzfVxyXG4gICAgICAgIDwvdWw+XHJcbiAgICApO1xyXG4gIH1cclxuXHJcbmNvbnN0IE1lbnVEaWEgPSAoKSA9PiB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVudS1kaWFzXCI+XHJcbiAgICAgICAgICAgIDxidXR0b24gdHlwZT1cImJ1dHRvblwiIGlkPVwibW9zdGFyLW1lbnVcIj5sdW5lczwvYnV0dG9uPlxyXG4gICAgICAgICAgICA8c2VsZWN0IG5hbWU9XCJzZWxlY2Npb25hci1kaWFcIiBpZD1cInNlbGVjY2lvbmFyLWRpYVwiIG11bHRpcGxlPlxyXG4gICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cImx1bmVzXCI+THVuZXM8L29wdGlvbj5cclxuICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJtYXJ0ZXNcIj5NYXJ0ZXM8L29wdGlvbj5cclxuICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJtaWVyY29sZXNcIj5NaWVyY29sZXM8L29wdGlvbj5cclxuICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJqdWV2ZXNcIj5KdWV2ZXM8L29wdGlvbj5cclxuICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJ2aWVybmVzXCI+Vmllcm5lczwvb3B0aW9uPlxyXG4gICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cInNhYmFkb1wiPlNhYmFkbzwvb3B0aW9uPlxyXG4gICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cImRvbWluZ29cIj5Eb21pbmdvPC9vcHRpb24+XHJcbiAgICAgICAgICAgIDwvc2VsZWN0PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKVxyXG59XHJcblxyXG4gIGZ1bmN0aW9uIEFnZW5kYShwcm9wcykge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIkFnZW5kYVwiPlxyXG4gICAgICAgICAgICA8aDE+QWdlbmRhPC9oMT5cclxuICAgICAgICAgICAgPE1lbnVEaWEgLz5cclxuICAgICAgICAgICAgPENoYXJsYXMgbGlzdGFDaGFybGFzPXtwcm9wcy5saXN0YUNoYXJsYXN9IGxpc3RhRGlhcz17cHJvcHMubGlzdGFEaWFzfSAvPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxuICB9XHJcblxyXG5cclxuY29uc3QgbGlzdGFEaWFzID0gWydsdW5lcycsICdtYXJ0ZXMnLCAnbWllcmNvbGVzJywgJ2p1ZXZlcycsICd2aWVybmVzJywgJ3NhYmFkbycsICdkb21pbmdvJ107XHJcblxyXG5SZWFjdERPTS5yZW5kZXIoPEFnZW5kYSBsaXN0YUNoYXJsYXM9e2luZm9ybWFjaW9uLmNoYXJsYXN9IGxpc3RhRGlhcz17bGlzdGFEaWFzfSAvPiAsIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhZ2VuZGEnKSk7XHJcblxyXG4vLyBKUyBwYXJhIG1vc3RyYXIgZWwgbWVudVxyXG5cclxuY29uc3QgYnRuTW9zdHJhck1lbnVEaWEgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcIm1vc3Rhci1tZW51XCIpO1xyXG5jb25zdCBidG5TZWxlY2lvbnJEaWEgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcInNlbGVjY2lvbmFyLWRpYVwiKTtcclxuXHJcbmNvbnN0IG1vc3RyYXJNZW51RGlhcyA9ICgpID0+IHtcclxuICAgIGNvbnN0IG1lbnUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcInNlbGVjY2lvbmFyLWRpYVwiKTtcclxuICAgIGNvbnNvbGUubG9nKG1lbnUuc3R5bGUuZGlzcGxheSk7XHJcbiAgICBtZW51LnN0eWxlLmRpc3BsYXkgPT0gJ2Jsb2NrJyA/XHJcbiAgICBtZW51LnN0eWxlLmRpc3BsYXkgPSAnbm9uZScgOiBtZW51LnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snO1xyXG59XHJcblxyXG5jb25zdCBjYW1iaWFyRGlhID0gKGRpYSkgPT4ge1xyXG4gICAgY29uc3QgY2hhcmxhc0RpYSA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJjaGFybGFzLWRpYVwiKTtcclxuICAgIE9iamVjdC52YWx1ZXMoY2hhcmxhc0RpYSkubWFwKChkaWFDaGFybGEpID0+IHtcclxuICAgICAgICBkaWFDaGFybGEuaWQgPT09IGRpYS50YXJnZXQudmFsdWUgP1xyXG4gICAgICAgICAgICBkaWFDaGFybGEuc3R5bGUuZGlzcGxheSA9ICdibG9jaycgOiBkaWFDaGFybGEuc3R5bGUuZGlzcGxheSA9ICdub25lJztcclxuICAgIH0pXHJcbn1cclxuXHJcbmJ0bk1vc3RyYXJNZW51RGlhLmFkZEV2ZW50TGlzdGVuZXIoXCJjbGlja1wiLCBmdW5jdGlvbiAoKSB7IG1vc3RyYXJNZW51RGlhcygpOyB9KTtcclxuYnRuU2VsZWNpb25yRGlhLmFkZEV2ZW50TGlzdGVuZXIoXCJjaGFuZ2VcIiwgY2FtYmlhckRpYSk7XHJcbmJ0blNlbGVjaW9uckRpYS5hZGRFdmVudExpc3RlbmVyKFwiY2hhbmdlXCIsIChlKSA9PiB7XHJcbiAgICBjb25zb2xlLmxvZyhidG5Nb3N0cmFyTWVudURpYS5pbm5lclRleHQpO1xyXG4gICAgYnRuTW9zdHJhck1lbnVEaWEuaW5uZXJUZXh0ID0gZS50YXJnZXQudmFsdWU7XHJcbiAgICBtb3N0cmFyTWVudURpYXMoKTtcclxufSk7XHJcbiJdfQ==</script><link rel="stylesheet" href="./Congreso biologia sintetica_files/index.css"></head>
+<body>
+	<a id="menu">
+      <div class="menu"></div>
+      <div class="menu"></div>
+      <div class="menu"></div>
+    </a>
+  	<header>
+  	<!--
+    <a href="#default" class="logo">CompanyLogo</a>
+    -->
+	<div class="header-right">
+      <a href="http://127.0.0.1:5500/public/index.html#" class="close">
+      </a><a href="http://127.0.0.1:5500/public/index.html#patrocinadores">Patrocinadores</a>
+      <a href="http://127.0.0.1:5500/public/index.html#quienes-somos">¿Quiénes somos?</a>
+      <a href="http://127.0.0.1:5500/public/index.html#talleres">Talleres</a>
+      <a href="http://127.0.0.1:5500/public/index.html#agenda">Agenda</a>
+      <a href="http://127.0.0.1:5500/public/index.html#main">Inicio</a>
+	</div>
+  </header>
+	
+	<main class="inicio">
+		<section>
+			<h1>CONGRESO DE BIOLOGÍA SINTÉTICA</h1>
+			<h2>"Ciencia de la Biología Sintética, crónicas de un viajero en startups transdisciplinares"</h2>
+			<p class="uno">Del 1 al 7 de marzo 2021</p>
+			<p>12-7pm</p>
+			<h3>Online</h3>
+			<a class="boton" href="http://127.0.0.1:5500/public/index.html">Boletos</a>
+		</section>
+		<section>
+			<div class="iconos">
+				<a href="http://127.0.0.1:5500/public/index.html"><img src="./Congreso biologia sintetica_files/1024px-Facebook_Logo_(2019).png" alt="logo de facebook"></a>
+				<a href="http://127.0.0.1:5500/public/index.html"><img src="./Congreso biologia sintetica_files/174857.png" alt=""></a>
+				<a href="http://127.0.0.1:5500/public/index.html"><img src="./Congreso biologia sintetica_files/twitter-logo-2-1.png" alt=""></a>
+				<a href="http://127.0.0.1:5500/public/index.html"><img src="./Congreso biologia sintetica_files/580b57fcd9996e24bc43c521.png" alt=""></a>
+			</div>
+		</section>
+	</main>
+	<div id="agenda"><div class="Agenda"><h1>Agenda</h1><div class="menu-dias"><button type="button" id="mostar-menu">lunes</button><select multiple="" name="seleccionar-dia" id="seleccionar-dia"><option value="lunes">Lunes</option><option value="martes">Martes</option><option value="miercoles">Miercoles</option><option value="jueves">Jueves</option><option value="viernes">Viernes</option><option value="sabado">Sabado</option><option value="domingo">Domingo</option></select></div><ul class="charlas-list"><div class="charlas-dia" id="lunes"><h1>lunes</h1><ul><li><div class="Charla"><img src="./Congreso biologia sintetica_files/ailor-moon.jpg" style="
+    width: 10px;
+"><h2>Moléculas sintéticas para la administración controlada de fármacos en las células</h2><p id="conferencista">Por C. Kassandra Edith Muros Ramos</p><p id="horario">17:05 - 17:05</p><a href="http://127.0.0.1:5500/charla.html?charlaID=1"> ver mas &gt; </a></div></li><li><div class="Charla"><img src="./Congreso biologia sintetica_files/ailor-moon.jpg"><h2>Bioseguridad, valores y riesgos en Biología Sintética</h2><p id="conferencista">Por C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán</p><p id="horario">17:05 - 17:05</p><a href="http://127.0.0.1:5500/charla.html?charlaID=2"> ver mas &gt; </a></div></li></ul></div><div class="charlas-dia" id="martes"><h1>martes</h1><ul><li><div class="Charla"><img src="./Congreso biologia sintetica_files/ailor-moon.jpg"><h2>Moléculas sintéticas para la administración controlada de fármacos en las células</h2><p id="conferencista">Por C. Kassandra Edith Muros Ramos</p><p id="horario">17:05 - 17:05</p><a href="http://127.0.0.1:5500/charla.html?charlaID=3"> ver mas &gt; </a></div></li><li><div class="Charla"><img src="./Congreso biologia sintetica_files/ailor-moon.jpg"><h2>Bioseguridad, valores y riesgos en Biología Sintética</h2><p id="conferencista">Por C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán</p><p id="horario">17:05 - 17:05</p><a href="http://127.0.0.1:5500/charla.html?charlaID=4"> ver mas &gt; </a></div></li></ul></div><div class="charlas-dia" id="miercoles"><h1>miercoles</h1><ul><li><div class="Charla"><img src="./Congreso biologia sintetica_files/ailor-moon.jpg"><h2>Moléculas sintéticas para la administración controlada de fármacos en las células</h2><p id="conferencista">Por C. Kassandra Edith Muros Ramos</p><p id="horario">17:05 - 17:05</p><a href="http://127.0.0.1:5500/charla.html?charlaID=5"> ver mas &gt; </a></div></li><li><div class="Charla"><img src="./Congreso biologia sintetica_files/ailor-moon.jpg"><h2>Bioseguridad, valores y riesgos en Biología Sintética</h2><p id="conferencista">Por C. Consuelo Ruth Loayza Vedia y C. Marcela Farfán</p><p id="horario">17:05 - 17:05</p><a href="http://127.0.0.1:5500/charla.html?charlaID=6"> ver mas &gt; </a></div></li></ul></div><div class="charlas-dia" id="jueves"><h1>jueves</h1><ul></ul></div><div class="charlas-dia" id="viernes"><h1>viernes</h1><ul></ul></div><div class="charlas-dia" id="sabado"><h1>sabado</h1><ul></ul></div><div class="charlas-dia" id="domingo"><h1>domingo</h1><ul></ul></div></ul></div></div>
+	<article class="organiza">
+		<h1>Organiza</h1>
+		<ul>
+			<div class="componente-1"><img src="./Congreso biologia sintetica_files/Synthetic-Biobots02-fondoblanco-web.jpg" alt="Synthetic-Biobots02-fondoblanco-web"></div>
+			<div class="componente-2"><h1 class="texto">Somos una comunidad transdisciplinar que está interesada en resolver grandes problemáticas del mundo cambiante actual. Con los objetivos de generar el mayor número de alternativas posibles para atender problemas medioambientales y de salud humana. Trabajando en la creación de biorobots y organismos genéticamente diseñados con el propósito de crear alternativas que den solución a muchas de las problemáticas actuales Con la visión de contribuir de manera significativa a nivel mundial en algunas de las ODS de la agenda 2030 de la ONU.</h1>
+				<a href="http://127.0.0.1:5500/public/index.html"><img src="./Congreso biologia sintetica_files/1024px-Facebook_Logo_(2019).png" alt="logo de facebook"></a>
+				<a href="http://127.0.0.1:5500/public/index.html"><img src="./Congreso biologia sintetica_files/174857.png" alt=""></a>
+				<a href="http://127.0.0.1:5500/public/index.html"><img src="./Congreso biologia sintetica_files/twitter-logo-2-1.png" alt=""></a>
+				<a href="http://127.0.0.1:5500/public/index.html"><img src="./Congreso biologia sintetica_files/580b57fcd9996e24bc43c521.png" alt=""></a>
+			</div>
+		</ul>
+	</article>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

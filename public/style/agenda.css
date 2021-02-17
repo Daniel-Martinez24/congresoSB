@@ -27,6 +27,9 @@
     #lunes {
         display: block;
     }
+
+
+    
 }
 
 @media only screen and (min-width: 601px) {
@@ -35,191 +38,258 @@
         display: none;
     }
     
+
+
+    .Agenda h1 {
+        margin-top: 10px;
+        font-size: 3.8rem;
+        font-weight: 500;
+        line-height: 44.53px; 
+        display: flex;
+        justify-content: center;
+        
+    }
+
     #lunes {
         width: 100%;
         height: auto;
         margin: 100px;
-
     }
 
     #lunes h1 {
-        margin: 0 10 10 10px;
+        margin: 10px;
         font-size: 3.8rem;
         font-weight: 300;
         line-height: 44.53px;
+        justify-content: left;  
     }
 
+    #lunes h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 
     #lunes ul {
         display: flex;
         list-style: none;
     }
+
+
     #lunes ul li {
         background-color: #C4C4C4;
         margin: 10px;
         border-radius: 10px;
-        width: 350px;
+        width: 450px;
         height: auto;
     }
+
 
     #martes {
         width: 100%;
         height: auto;
         margin: 100px;
-
     }
 
     #martes h1 {
-        margin: 0 10 10 10px;
+        margin: 10px;
         font-size: 3.8rem;
         font-weight: 300;
-        line-height: 44.53px;
+        line-height: 44.53px; 
+        justify-content: left;  
     }
 
+    #martes h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 
     #martes ul {
         display: flex;
         list-style: none;
     }
+
+
     #martes ul li {
         background-color: #C4C4C4;
         margin: 10px;
         border-radius: 10px;
-        width: 350px;
+        width: 450px;
         height: auto;
+    }
+
+
+    #miercoles {
+        width: 100%;
+        height: auto;
+        margin: 100px;
+    }
+
+    #miercoles h1 {
+        margin: 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;  
+        justify-content: left; 
+    }
+
+    #miercoles h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
     }
 
     #miercoles ul {
         display: flex;
         list-style: none;
     }
+
+
     #miercoles ul li {
         background-color: #C4C4C4;
         margin: 10px;
         border-radius: 10px;
-        width: 350px;
+        width: 450px;
         height: auto;
     }
 
-    #miercoles {
-        width: 100%;
-        height: auto;
-        margin: 100px;
-
-    }
-
-    #miercoles h1 {
-        margin: 0 10 10 10px;
-        font-size: 3.8rem;
-        font-weight: 300;
-        line-height: 44.53px;
-    }
 
     #jueves {
         width: 100%;
         height: auto;
         margin: 100px;
-
     }
 
     #jueves h1 {
-        margin: 0 10 10 10px;
+        margin: 10px;
         font-size: 3.8rem;
         font-weight: 300;
-        line-height: 44.53px;
+        line-height: 44.53px;  
+        justify-content: left; 
     }
 
+    #jueves h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 
     #jueves ul {
         display: flex;
         list-style: none;
     }
+
+
     #jueves ul li {
         background-color: #C4C4C4;
         margin: 10px;
         border-radius: 10px;
-        width: 350px;
+        width: 450px;
         height: auto;
     }
+
+
+
 
     #viernes {
         width: 100%;
         height: auto;
         margin: 100px;
-
     }
 
     #viernes h1 {
-        margin: 0 10 10 10px;
+        margin: 10px;
         font-size: 3.8rem;
         font-weight: 300;
-        line-height: 44.53px;
+        line-height: 44.53px;  
+        justify-content: left; 
     }
 
+    #viernes h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 
     #viernes ul {
         display: flex;
         list-style: none;
     }
+
+
     #viernes ul li {
         background-color: #C4C4C4;
         margin: 10px;
         border-radius: 10px;
-        width: 350px;
+        width: 450px;
         height: auto;
     }
-    
+
+
+
+
     #sabado {
         width: 100%;
         height: auto;
         margin: 100px;
-
     }
 
     #sabado h1 {
-        margin: 0 10 10 10px;
+        margin: 10px;
         font-size: 3.8rem;
         font-weight: 300;
         line-height: 44.53px;
+        justify-content: left;   
     }
 
+    #sabado h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 
     #sabado ul {
         display: flex;
         list-style: none;
     }
+
+
     #sabado ul li {
         background-color: #C4C4C4;
         margin: 10px;
         border-radius: 10px;
-        width: 350px;
+        width: 450px;
         height: auto;
     }
+  
+
+
 
     #domingo {
         width: 100%;
         height: auto;
         margin: 100px;
-
     }
 
     #domingo h1 {
-        margin: 0 10 10 10px;
+        margin: 10px;
         font-size: 3.8rem;
         font-weight: 300;
-        line-height: 44.53px;
+        line-height: 44.53px;  
+        justify-content: left; 
     }
 
+    #domingo h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 
     #domingo ul {
         display: flex;
         list-style: none;
     }
+
+
     #domingo ul li {
         background-color: #C4C4C4;
         margin: 10px;
         border-radius: 10px;
-        width: 350px;
+        width: 450px;
         height: auto;
     }
 
@@ -237,13 +307,28 @@
     }
 
     .Charla img {
-        width: 90px;
+        width: 120px;
         border-radius: 100px;
         margin: 10px;
     }
 
     .Charla #conferencista {
-        width: 200px;
+        width: 50%;
+        position: relative;
+        left: 31%;
+        top: -50px;
+    }
+
+    #horario  {
+        font-weight:800;
+        position: relative;
+        left: -85px;
+        top: -20px;
+        
+    }
+
+    .charla  a {
+        text-decoration: none;
     }
 }
 
