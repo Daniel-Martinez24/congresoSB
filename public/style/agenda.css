@@ -1,6 +1,4 @@
 @media only screen and (max-width: 600px) {
-
-   
     
     
     #agenda {
@@ -8,8 +6,8 @@
         min-width: 320px;
         height: auto;
     }
-    #agenda  img {
-        width: 50%;
+    #agenda .agenda img {
+        width: 100%;
         display: flex;
     }
 
@@ -35,6 +33,53 @@
     /* No quiero que se muestre */
     .menu-dias{
         display: none;
+    }
+    
+    #lunes {
+        width: 100%;
+        height: auto;
+        margin: 100px;
+
+    }
+
+    #lunes h1 {
+        margin: 0 10 10 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;
+    }
+
+
+    #lunes ul {
+        display: flex;
+        list-style: none;
+    }
+    #lunes ul li {
+        background-color: #C4C4C4;
+        margin: 10px;
+        border-radius: 10px;
+        width: 350px;
+        height: auto;
+    }
+
+    .Charla {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Charla h2 {
+        width: 60%;
+        align-items: center;
+    }
+
+    .Charla img {
+        width: 90px;
+        border-radius: 100px;
+        margin: 10px;
+    }
+
+    .Charla #conferencista {
+        width: 200px;
     }
 }
 

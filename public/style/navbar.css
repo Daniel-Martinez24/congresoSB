@@ -1,6 +1,6 @@
 
 header {
-  position: absolute;
+  position: sticky;
   padding: 1rem 0px;
   width: 100%;
   background-color: black;
