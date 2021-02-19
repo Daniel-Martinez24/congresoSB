@@ -83,6 +83,16 @@
         height: auto;
     }
 
+    #lunes .Charla a {
+        position: relative;
+        left: -140px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0B76F7;
+        top: -10px;
+        
+    }
+
 
     #martes {
         width: 100%;
@@ -117,6 +127,15 @@
         height: auto;
     }
 
+    #martes .Charla a {
+        position: relative;
+        left: -145px;
+        top: -10px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0B76F7;
+        
+    }
 
     #miercoles {
         width: 100%;
@@ -152,6 +171,15 @@
     }
 
 
+    #miercoles .Charla a {
+        position: relative;
+        left: -145px;
+        top: -10px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0B76F7;  
+    }
+
     #jueves {
         width: 100%;
         height: auto;
@@ -183,6 +211,15 @@
         border-radius: 10px;
         width: 450px;
         height: auto;
+    }
+
+    #jueves .Charla a {
+        position: relative;
+        left: -145px;
+        top: -10px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0B76F7;  
     }
 
 
@@ -221,7 +258,14 @@
         height: auto;
     }
 
-
+    #viernes .Charla a {
+        position: relative;
+        left: -145px;
+        top: -10px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0B76F7;  
+    }
 
 
     #sabado {
@@ -257,7 +301,14 @@
         height: auto;
     }
   
-
+    #sabado .Charla a {
+        position: relative;
+        left: -145px;
+        top: -10px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0B76F7;  
+    }
 
 
     #domingo {
@@ -293,6 +344,14 @@
         height: auto;
     }
 
+    #domingo .Charla a {
+        position: relative;
+        left: -145px;
+        top: -10px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0B76F7;  
+    }
 
     .Charla {
         display: flex;
@@ -300,35 +359,35 @@
     }
 
     .Charla h2 {
-        width: 60%;
+        width: 70%;
         align-items: center;
         vertical-align: middle;
         padding-top: 20px;
+        padding-left: 10px;
     }
 
     .Charla img {
         width: 120px;
         border-radius: 100px;
-        margin: 10px;
+        margin-top: 5%;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 
     .Charla #conferencista {
         width: 50%;
         position: relative;
         left: 31%;
-        top: -50px;
+        top: -60px;
     }
 
     #horario  {
         font-weight:800;
         position: relative;
         left: -85px;
-        top: -20px;
+        top: -30px;
         
     }
 
-    .charla  a {
-        text-decoration: none;
-    }
 }
 

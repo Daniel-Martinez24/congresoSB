@@ -24,7 +24,8 @@
     
     .organiza ul .componente-1 img{
         display: flex;
-        width: 85%;
+        width: 500px;
+        margin: calc(100% 50%);
         margin-left: 6rem;
         margin-top: 4rem;
         
@@ -50,9 +51,9 @@
         margin: 5vh;
     }
     
-    .organiza ul img {
-        width: 3vw;
-        margin: 5px;
+    .organiza .componente-2 img {
+        width: 30px;
+        padding: 3px;
     }
       
 }
