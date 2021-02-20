@@ -24,7 +24,7 @@
     .charlas-dia {
         display: none;
     }
-    #lunes {
+    .charlas-dia {
         display: block;
     }
 
@@ -50,13 +50,13 @@
         
     }
 
-    #lunes {
-        width: 100%;
+    .charlas-dia {
+        width: calc(100% - 200px);
         height: auto;
         margin: 100px;
     }
 
-    #lunes h1 {
+    .charlas-dia h1 {
         margin: 10px;
         font-size: 3.8rem;
         font-weight: 300;
@@ -64,18 +64,18 @@
         justify-content: left;  
     }
 
-    #lunes h2 {
+    .charlas-dia h2 {
         font-size: 1.5rem;
         font-weight: 700;
     }
 
-    #lunes ul {
+    .charlas-dia ul {
         display: flex;
         list-style: none;
     }
 
 
-    #lunes ul li {
+    .charlas-dia ul li {
         background-color: #C4C4C4;
         margin: 10px;
         border-radius: 10px;
@@ -83,7 +83,7 @@
         height: auto;
     }
 
-    #lunes .Charla a {
+    .charlas-dia .Charla a {
         position: relative;
         left: -140px;
         text-decoration: none;
@@ -91,266 +91,6 @@
         color: #0B76F7;
         top: -10px;
         
-    }
-
-
-    #martes {
-        width: 100%;
-        height: auto;
-        margin: 100px;
-    }
-
-    #martes h1 {
-        margin: 10px;
-        font-size: 3.8rem;
-        font-weight: 300;
-        line-height: 44.53px; 
-        justify-content: left;  
-    }
-
-    #martes h2 {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-
-    #martes ul {
-        display: flex;
-        list-style: none;
-    }
-
-
-    #martes ul li {
-        background-color: #C4C4C4;
-        margin: 10px;
-        border-radius: 10px;
-        width: 450px;
-        height: auto;
-    }
-
-    #martes .Charla a {
-        position: relative;
-        left: -145px;
-        top: -10px;
-        text-decoration: none;
-        font-weight: 700;
-        color: #0B76F7;
-        
-    }
-
-    #miercoles {
-        width: 100%;
-        height: auto;
-        margin: 100px;
-    }
-
-    #miercoles h1 {
-        margin: 10px;
-        font-size: 3.8rem;
-        font-weight: 300;
-        line-height: 44.53px;  
-        justify-content: left; 
-    }
-
-    #miercoles h2 {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-
-    #miercoles ul {
-        display: flex;
-        list-style: none;
-    }
-
-
-    #miercoles ul li {
-        background-color: #C4C4C4;
-        margin: 10px;
-        border-radius: 10px;
-        width: 450px;
-        height: auto;
-    }
-
-
-    #miercoles .Charla a {
-        position: relative;
-        left: -145px;
-        top: -10px;
-        text-decoration: none;
-        font-weight: 700;
-        color: #0B76F7;  
-    }
-
-    #jueves {
-        width: 100%;
-        height: auto;
-        margin: 100px;
-    }
-
-    #jueves h1 {
-        margin: 10px;
-        font-size: 3.8rem;
-        font-weight: 300;
-        line-height: 44.53px;  
-        justify-content: left; 
-    }
-
-    #jueves h2 {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-
-    #jueves ul {
-        display: flex;
-        list-style: none;
-    }
-
-
-    #jueves ul li {
-        background-color: #C4C4C4;
-        margin: 10px;
-        border-radius: 10px;
-        width: 450px;
-        height: auto;
-    }
-
-    #jueves .Charla a {
-        position: relative;
-        left: -145px;
-        top: -10px;
-        text-decoration: none;
-        font-weight: 700;
-        color: #0B76F7;  
-    }
-
-
-
-
-    #viernes {
-        width: 100%;
-        height: auto;
-        margin: 100px;
-    }
-
-    #viernes h1 {
-        margin: 10px;
-        font-size: 3.8rem;
-        font-weight: 300;
-        line-height: 44.53px;  
-        justify-content: left; 
-    }
-
-    #viernes h2 {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-
-    #viernes ul {
-        display: flex;
-        list-style: none;
-    }
-
-
-    #viernes ul li {
-        background-color: #C4C4C4;
-        margin: 10px;
-        border-radius: 10px;
-        width: 450px;
-        height: auto;
-    }
-
-    #viernes .Charla a {
-        position: relative;
-        left: -145px;
-        top: -10px;
-        text-decoration: none;
-        font-weight: 700;
-        color: #0B76F7;  
-    }
-
-
-    #sabado {
-        width: 100%;
-        height: auto;
-        margin: 100px;
-    }
-
-    #sabado h1 {
-        margin: 10px;
-        font-size: 3.8rem;
-        font-weight: 300;
-        line-height: 44.53px;
-        justify-content: left;   
-    }
-
-    #sabado h2 {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-
-    #sabado ul {
-        display: flex;
-        list-style: none;
-    }
-
-
-    #sabado ul li {
-        background-color: #C4C4C4;
-        margin: 10px;
-        border-radius: 10px;
-        width: 450px;
-        height: auto;
-    }
-  
-    #sabado .Charla a {
-        position: relative;
-        left: -145px;
-        top: -10px;
-        text-decoration: none;
-        font-weight: 700;
-        color: #0B76F7;  
-    }
-
-
-    #domingo {
-        width: 100%;
-        height: auto;
-        margin: 100px;
-    }
-
-    #domingo h1 {
-        margin: 10px;
-        font-size: 3.8rem;
-        font-weight: 300;
-        line-height: 44.53px;  
-        justify-content: left; 
-    }
-
-    #domingo h2 {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-
-    #domingo ul {
-        display: flex;
-        list-style: none;
-    }
-
-
-    #domingo ul li {
-        background-color: #C4C4C4;
-        margin: 10px;
-        border-radius: 10px;
-        width: 450px;
-        height: auto;
-    }
-
-    #domingo .Charla a {
-        position: relative;
-        left: -145px;
-        top: -10px;
-        text-decoration: none;
-        font-weight: 700;
-        color: #0B76F7;  
     }
 
     .Charla {
