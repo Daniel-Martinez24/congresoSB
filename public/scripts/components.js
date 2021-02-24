@@ -10,7 +10,7 @@ function TalleresTarjeta(props) {
             
             <ul>{Fechas} </ul>
             
-            <a href={props.verMas} > ver mas &gt; </a>
+            <a href={ '/taller.html?tallerID=' + props.id} > ver mas &gt; </a>
         </div>
     );
 }
@@ -23,7 +23,7 @@ function Talleres(props) {
             titulo={taller.titulo}
             tallerista={taller.tallerista}
             fechas = {taller.fechas}
-            verMas={taller.verMas}
+            id={taller.id}
             />
       </li>
     );

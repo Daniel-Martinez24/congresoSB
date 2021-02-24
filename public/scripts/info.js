@@ -3,43 +3,43 @@ const talleres = [
         titulo: 'Taller de principios básicos de análisis filogenético',
         tallerista: 'Dr. Luis José Delaye Arredondo',
         fechas : [ 'dai 1 17:05', 'dia 2 17:05' ],
-        verMas: '#'
+        id: '#'
     },
     {
         titulo: 'Taller de Biología Sintética',
         tallerista: 'Dr. Luis Joel Figueroa Yañez',
         fechas : [ 'dai 1 18:25', 'dia 2 18:25', 'dia 3 17:05'],
-        verMas: '#'
+        id: '#'
     },
     {
         titulo: 'Taller básico de fotografía científica: La ciencia a través de un lente',
         tallerista: 'C. Kassandra Edith Muros Ramos',
         fechas : [ 'dia 2 14:20', 'dia 3 13:15' ],
-        verMas: '#'
+        id: '#'
     },
     {
         titulo: 'Genética : Un paso fuera del aula.',
         tallerista: 'Ing. Miguel Fernando Espitia Verdugo',
         fechas : [ 'dia 3 18:25', 'dia 5 18:25', 'dia 6 12:10'],
-        verMas: '#'
+        id: '#'
     },
     {
         titulo: 'Tu Pokédex en la vida real: Programa tu clasificador de animales con redes neuronales artificiales',
         tallerista: 'Lic. Rodolfo Ferro',
         fechas : [ 'lunes 17:05', ],
-        verMas: '#'
+        id: '#'
     },
     {
         titulo: 'Taller Cómo hacer divulgación científica',
         tallerista: 'Lic. Diana Laura Vázquez Mendoza',
         fechas : [ 'dia 5 17:05', 'dia 7 :16:25' ],
-        verMas: '#'
+        id: '#'
     },
     {
         titulo: 'Taller de evolución bacteriana',
         tallerista: 'Mtra. Paz Catalina Gutiérrez Rosas',
         fechas : [ 'dia 6 17:05',],
-        verMas: '#'
+        id: '#'
     },
 ]
 

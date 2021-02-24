@@ -10,6 +10,6 @@ function getParameterByName(name) {
 }
 
 
-var talleristaID = getParameterByName('talleristaID');
+var tallerID = getParameterByName('tallerID');
 
-console.log(talleristaID);
+console.log(tallerID);
