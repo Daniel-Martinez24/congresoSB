@@ -13,3 +13,11 @@ menu.addEventListener("click", function(){ headerAparecer(); });
 if (screen.width < 600) {
     Object.values(link_a_secciones).map(links => links.addEventListener("click", () => {headerAparecer();} ));
 }
+
+
+// compartir
+const linkGeneral = 'https://www.facebook.com/SyntheticBiobots';
+const botonesShare = document.getElementsByClassName('share-socialm');
+const linkShare = botonesShare[0].getElementsByTagName("a");
+
+Object.values(linkShare).map(links => links.href = links + linkGeneral);
