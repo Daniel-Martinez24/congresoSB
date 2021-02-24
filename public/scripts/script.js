@@ -16,7 +16,7 @@ if (screen.width < 600) {
 
 
 // compartir
-const linkGeneral = 'https://www.facebook.com/SyntheticBiobots';
+const linkGeneral = 'https://www.websiteplanet.com';
 const botonesShare = document.getElementsByClassName('share-socialm');
 const linkShare = botonesShare[0].getElementsByTagName("a");
 
