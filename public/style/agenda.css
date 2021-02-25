@@ -1,20 +1,86 @@
 @media only screen and (max-width: 600px) {
-    
-    
-    #agenda {
-        width: 100%;
-        min-width: 320px;
-        height: auto;
-    }
-    #agenda .agenda img {
-        width: 100%;
-        display: flex;
+
+    .Agenda h1 {
+        margin-top: 1rem;
+        font-size: 3.8rem;
+        font-weight: 500;
+        line-height: 44.53px;  
     }
 
-    #agenda  h2 {
-        width: 50%;
+    .charlas-list {
+        width: 100vw;
         display: flex;
-    } 
+        justify-content: center;
+    }
+
+    .charlas-dia ul li {
+        background-color: #C4C4C4;
+        margin: 10px;
+        border-radius: 10px;
+        width: 90vw;
+        height: auto;
+    }
+
+    .charlas-dia h1 {
+        margin: 10px;
+        font-size: 3.8rem;
+        font-weight: 300;
+        line-height: 44.53px;
+    }
+
+    .charlas-dia h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .charlas-dia .Charla a {
+        
+        left: -140px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0B76F7;
+        top: -10px;
+    }
+
+    .Charla {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Charla h2 {
+        width: 70%;
+        align-items: center;
+        vertical-align: middle;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .Charla img {
+        width: 120px;
+        border-radius: 100px;
+        margin-top: 5%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .Charla #conferencista {
+        width: 50%;
+        position: relative;
+        left: 31%;
+        top: -60px;
+    }
+
+    #horario  {
+        font-weight:800;
+        position: relative;
+        left: -85px;
+        top: -30px;
+        
+    }
+
+    .charlas-dia {
+        width: 50px;
+    }
 
 
     /* funcionalidad */
