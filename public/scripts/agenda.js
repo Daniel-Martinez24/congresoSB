@@ -63,7 +63,7 @@ const MenuDia = () => {
                 <option value="miercoles">Miercoles</option>
                 <option value="jueves">Jueves</option>
                 <option value="viernes">Viernes</option>
-                <option value="sabado">Sabado</option>
+                <option value="sábado">Sabado</option>
                 <option value="domingo">Domingo</option>
             </select>
         </div>
@@ -81,7 +81,7 @@ const MenuDia = () => {
   }
 
 
-const listaDias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
+const listaDias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sábado', 'domingo'];
 
 ReactDOM.render(<Agenda listaCharlas={informacion.charlas} listaDias={listaDias} /> , document.getElementById('agenda'));
 
