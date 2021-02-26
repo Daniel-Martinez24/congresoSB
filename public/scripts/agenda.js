@@ -4,11 +4,17 @@
 function Charla(props) {
     return (
         <div className="Charla"> 
-            <img src={props.foto}></img>
-            <h2>{props.titulo}</h2>
-            <p id="conferencista">Por {props.conferencista}</p> 
-            <p id="horario">{props.horario}</p> 
-            <a href= {'/charla.html?charlaID=' + props.id} > ver mas &gt; </a>
+            <div className="charla-parrafo">
+              <img src={props.foto}></img>
+            </div>
+            <div className="contenido-charla">
+                <h2>{props.titulo}</h2>
+                <div className="charla-parrafo">
+                    <p id="conferencista">Por {props.conferencista}</p> 
+                    <p id="horario">{props.horario}</p>
+                </div>    
+                <a href={'/charla.html?charlaID=' + props.id} > ver mas &gt; </a>
+            </div>
         </div>
     );
 }

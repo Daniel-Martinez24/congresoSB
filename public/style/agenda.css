@@ -152,7 +152,21 @@
         height: auto;
     }
 
+    .contenido-charla {
+        align-items: center;
+        
+    }
+
+    .contenido-charla h2 {
+        margin: 4% 4% 4% 0;
+    }
+
+    .charla-parrafo {
+        margin: 1vh 0px;
+    }
+    /*
     .charlas-dia .Charla a {
+        
         position: relative;
         left: -140px;
         text-decoration: none;
@@ -160,44 +174,49 @@
         color: #0B76F7;
         top: -10px;
         
-    }
+    }*/
 
     .Charla {
         display: flex;
-        flex-wrap: wrap;
+        /*
+        flex-wrap: wrap; */
+    }
+    .charla-parrafo {
+        flex-wrap: wrap; 
     }
 
     .Charla h2 {
+        /*
         width: 70%;
         align-items: center;
         vertical-align: middle;
         padding-top: 20px;
-        padding-left: 10px;
+        padding-left: 10px; */
     }
 
     .Charla img {
         width: 120px;
         border-radius: 100px;
-        margin-top: 5%;
-        margin-right: 5px;
-        margin-left: 5px;
+        margin: 5px;
 
         height: 120px;
         object-fit: cover;
     }
 
     .Charla #conferencista {
+        /*
         width: 50%;
         position: relative;
         left: 31%;
-        top: -60px;
+        top: -60px; */
     }
 
     #horario  {
+        /*
         font-weight:800;
         position: relative;
         left: -85px;
-        top: -30px;
+        top: -30px; */
         
     }
 
