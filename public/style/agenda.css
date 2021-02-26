@@ -13,12 +13,10 @@
         justify-content: center;
     }
 
-    .charlas-dia ul li {
-        background-color: #C4C4C4;
-        margin: 10px;
-        border-radius: 10px;
-        width: 90vw;
+    .charlas-dia {
+        width: calc(100% - 10px);
         height: auto;
+        margin: 20px;
     }
 
     .charlas-dia h1 {
@@ -26,63 +24,59 @@
         font-size: 3.8rem;
         font-weight: 300;
         line-height: 44.53px;
+        justify-content: left;  
     }
 
     .charlas-dia h2 {
-        font-size: 1.5rem;
+        font-size: initial;
         font-weight: 700;
     }
 
-    .charlas-dia .Charla a {
+    .charlas-dia ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+
+    .charlas-dia ul li {
+        background-color: #C4C4C4;
+        margin: 1.5%;
+        border-radius: 10px;
+        width: 90%;
+        height: auto;
+    }
+
+    .contenido-charla {
+        align-items: center;
         
-        left: -140px;
-        text-decoration: none;
-        font-weight: 700;
-        color: #0B76F7;
-        top: -10px;
+    }
+
+    .contenido-charla h2 {
+        margin: 4% 4% 4% 0;
+    }
+
+    .charla-parrafo {
+        margin: 1vh 0px;
     }
 
     .Charla {
         display: flex;
-        flex-wrap: wrap;
+        /*
+        flex-wrap: wrap; */
     }
-
-    .Charla h2 {
-        width: 70%;
-        align-items: center;
-        vertical-align: middle;
-        padding-top: 20px;
-        padding-left: 10px;
+    .charla-parrafo {
+        flex-wrap: wrap; 
     }
 
     .Charla img {
-        width: 16vh;
+        width: 120px;
         border-radius: 100px;
-        margin-top: 5%;
-        margin-right: 5px;
-        margin-left: 5px;
+        margin: 5px;
 
-        height: 16vh;
+        height: 120px;
         object-fit: cover;
-    }
-
-    .Charla #conferencista {
-        width: 50%;
-        position: relative;
-        left: 31%;
-        top: -60px;
-    }
-
-    #horario  {
-        font-weight:800;
-        position: relative;
-        left: -85px;
-        top: -30px;
-        
-    }
-
-    .charlas-dia {
-        width: 50px;
     }
 
 
