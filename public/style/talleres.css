@@ -50,4 +50,95 @@
         font-weight: 500;
         margin-top: 200px;
     }
+
+    /*AQui comienza el css de talleres, la parte talleres que se supone que es talleres*/
+
+    .main-talleres-container {
+        width: 100%;
+        margin-top: 5%; /*No estoy muy seguro de esta medida, si se cruza con el header, aqui esta el problema*/
+        
+    }
+    
+    .main-talleres-container .talleres--textbox{
+        display: flex;
+        width: 100%;
+        margin:  0 auto;
+        justify-content: center;
+    }
+
+    .main-talleres-container .talleres--textbox {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 4.2rem;
+        line-height: 4.92rem;
+        color: black;
+        margin: 1%;
+    }
+
+
+    .main-talleres-container .talleres-space {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;  
+        margin: 0 auto;
+        margin-top: 2%;
+        
+    }
+
+
+    .main-talleres-container .talleres-space .talleres--block-container {
+        border: #0B76F7 1px solid;
+        border-radius: 10px;
+        padding: 2%;
+        
+    }
+
+
+    .main-talleres-container .talleres-space .talleres--block-container .talleres--block-container-items {
+        list-style: none;
+    }
+
+    .items-title h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 2rem;
+        line-height:2rem;
+        margin-bottom: 0.5vh;
+        
+    }
+
+    .items-name p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+        color: black ;
+        opacity: 50%;
+        margin-bottom: 1vh;
+    }
+
+    .items-time h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        color: black ;
+    }
+
+    .items-button button {
+        background-color: #0B76F7;
+        list-style: none;
+        cursor: pointer;
+        color: white;
+        width: 23%;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 1.2rem;
+        margin-top: 2vh;
+    }
 }
