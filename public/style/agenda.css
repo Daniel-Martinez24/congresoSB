@@ -56,11 +56,14 @@
     }
 
     .Charla img {
-        width: 120px;
+        width: 16vh;
         border-radius: 100px;
         margin-top: 5%;
         margin-right: 5px;
         margin-left: 5px;
+
+        height: 16vh;
+        object-fit: cover;
     }
 
     .Charla #conferencista {
@@ -115,9 +118,9 @@
     }
 
     .charlas-dia {
-        width: calc(100% - 200px);
+        width: calc(100% - 100px);
         height: auto;
-        margin: 100px;
+        margin: 50px;
     }
 
     .charlas-dia h1 {
@@ -136,15 +139,16 @@
     .charlas-dia ul {
         display: flex;
         list-style: none;
-        width: 900px;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
 
     .charlas-dia ul li {
         background-color: #C4C4C4;
-        margin: 10px;
+        margin: 1.5%;
         border-radius: 10px;
-        width: 550px;
+        width: 30%;
         height: auto;
     }
 
@@ -177,6 +181,9 @@
         margin-top: 5%;
         margin-right: 5px;
         margin-left: 5px;
+
+        height: 120px;
+        object-fit: cover;
     }
 
     .Charla #conferencista {
@@ -192,10 +199,6 @@
         left: -85px;
         top: -30px;
         
-    }
-
-    .charlas-dia {
-        width: 50px;
     }
 
 }
