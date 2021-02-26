@@ -81,7 +81,7 @@ const charlas = [
         conferencista: 'Lic. Félix Eusebio Medrano San Elías',
         fecha: 'lunes',
         horario: '14:20 - 15:25',
-        foto: 'https://i.ibb.co/YcxnvPw/F-LIX-EUSEBIO.jpg',
+        foto: 'https://i.ibb.co/ccTCH0m/F-LIX-EUSEBIO-copia.jpg',
         infoCharla : 'falta de rellanar',
         id: '3'
     },
