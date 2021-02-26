@@ -1,0 +1,29 @@
+#patrocinadores {
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+#patrocinadores img {
+    max-width: 80vw;
+
+    margin: 6vw 10vw 6vw 10vw;
+}
+
+#patrocinadores h3 {
+    margin: 10px;
+    font-size: 3.8rem;
+    font-weight: 300;
+    line-height: 44.53px;
+    justify-content: left;
+}
+
+
+@media only screen and (min-width: 600px) {
+    #patrocinadores img {
+        max-width: 300px;
+
+        margin: 0vh 20vh 0vh 20vh;
+    }
+}
+
+
