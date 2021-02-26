@@ -4,6 +4,7 @@
         text-align: center;
         padding-top: 8vh ;
         padding-bottom: 8vh ;
+        height: 95vh;
     }
     
     .inicio section  {
@@ -82,7 +83,7 @@
     video {
         position: absolute;
         left: 0;
-        top: -5%;
+        top: -5vh;
         width: 100vw;
         height: 100vh;
         z-index: -1;
