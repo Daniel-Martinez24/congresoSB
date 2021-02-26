@@ -18,6 +18,7 @@
     height: auto;
     background-color: #e74919;
     position: absolute;
+    display: none;
   }
 
   header a {
@@ -79,6 +80,8 @@
     height: auto;
     background-color: black;
     padding: 15px;
+
+    display: block;
   }
   
   header a {
