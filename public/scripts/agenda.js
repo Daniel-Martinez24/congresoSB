@@ -62,16 +62,19 @@ function Charlas(props) {
 const MenuDia = () => {
     return (
         <div className="menu-dias">
-            <button type="button" id="mostar-menu">lunes</button>
-            <select name="seleccionar-dia" id="seleccionar-dia" multiple>
-                <option value="lunes">Lunes</option>
-                <option value="martes">Martes</option>
-                <option value="miercoles">Miercoles</option>
-                <option value="jueves">Jueves</option>
-                <option value="viernes">Viernes</option>
-                <option value="sábado">Sabado</option>
-                <option value="domingo">Domingo</option>
-            </select>
+            <div className="contender-boton ">
+                <button type="button" id="mostar-menu">lunes</button>
+           
+                <select name="seleccionar-dia" id="seleccionar-dia" multiple>
+                    <option value="lunes">Lunes</option>
+                    <option value="martes">Martes</option>
+                    <option value="miercoles">Miercoles</option>
+                    <option value="jueves">Jueves</option>
+                    <option value="viernes">Viernes</option>
+                    <option value="sábado">Sabado</option>
+                    <option value="domingo">Domingo</option>
+                </select>
+            </div>
         </div>
     )
 }
