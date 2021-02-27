@@ -27,8 +27,8 @@ const talleres = [
         titulo: 'Genética : Un paso fuera del aula.',
         tallerista: 'Ing. Miguel Fernando Espitia Verdugo',
         fechas: ['miercoles 18:25', 'viernes 18:25', 'sabado 12:10'],
-        infoTaller: 'información',
-        requisitos: ['por definir'],
+        infoTaller: 'En este espacio deconstuireremos algunos conceptos de genética tocando temas como : La concepción del ADN como una maquina, el como se relaciona con las otras moléculas que nos conforman y su rol en la sociedad con el fin de brindarle al tallerista herramientas nuevas para comprender fenómenos actuales y publicaciones nuevas.',
+        requisitos: ['Computadora/tablet', 'calculadora', 'Excel (opcional)'],
         id: '4'
     },
     {
@@ -162,8 +162,16 @@ const charlas = [
         conferencista: 'C. Pedro Chávez Gómez',
         fecha: 'jueves',
         horario: '13:15 - 14:20',
-        foto: '',
-        infoCharla : 'por definir',
+        foto: 'https://i.ibb.co/zPSwVfs/Foto-Pedro-Ecoloquio-Pedro-Ch-vez.jpg',
+        infoCharla :  'TEMAS POR ABORDAR:  '
+        + ' + ¿Qué es la economía ecológica y la economía ambiental?'
+        + ' + Diferencias y similitudes entre la economía ecológica y economía ambiental'
+        + ' + La cuenca del río Santiago desde la economía ambiental y economía ecológica'
+        + ' + La biología sintética como ecotecnia'
+        + ' + Impactos de las ecotecnias'
+        +' + Características que debe cumplir la biología sintética para considerarse una ecotécnia '
+        +' + ¿La biología sintética para sanear la cuenca del río Santiago ?'
+        ,
         id: '12'
     },
     {
