@@ -1,86 +1,81 @@
 @media only screen and (min-width: 600px) {
-
-    .main-container{
-        display: flex;
-        justify-content: center;
+    main .main-section {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        padding: 3%;
     }
-
-    .main-container .main-section {
-        padding-top: 20px;
-        margin: 150px;
-        width: 1100px;
-        max-width: 100%;
-
+   
+    main .main-section .main-container .titulo-taller p  {
+       font-size: 4.8rem;
+       font-weight: 300;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       line-height: 5rem;
     }
-    .main-container .main-section .main-container--section {
-        display: flex;
-
-    }
-
-    .main-container .main-section .main-container--section .main-container--section-photo img{
-        width: 450px;
-        padding: 10px;
-        list-style: none;
-    }
-
-
-    .main-container .main-section .main-container--section  .main-container--section-information {
-        margin:  0 30px;
-        list-style: none;
-    }
-    .main-container .main-section .main-container--section  .main-container--section-information h1 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 3rem;
-        line-height: 42.19px;
-    }
-
-    .main-container .main-section .main-container--section  .main-container--section-information p {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 2rem;
-        line-height: 30.47px;
-        color: rgb(122, 122, 122);
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-
-    .main-container .main-section .main-container--section  .main-container--section-information h2 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
-        font-weight: 450;
-        font-style: normal;
-        font-size: 1.5rem;
-        line-height: 25.78px;
-        color: rgb(0, 0, 0);
-        margin-bottom: 10px;
-    }
-
-    .main-container .main-section .main-container--section  .main-container--section-information h3 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 1.5rem;
-        line-height: 23.44px;
-        color: rgb(0, 0, 0);
-        margin-bottom: 10px;
-    }
-
-    .main-container .main-section .main-container--section  .main-container--section-information .main-container--section-information--socialmedia li {
-        display: inline;
-        
-    }
-
-    .main-container .main-section .main-container--section  .main-container--section-information .main-container--section-information--socialmedia li img{
-        list-style: none;
-        width: 30px;
-        margin-right: 15px;
-        
-    }
-
     
- 
+
+    main .main-section .main-container  .nombre p {
+        font-size: 3.4rem;
+        font-weight: 300;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 3.9rem;
+        color: black;
+        opacity: 70%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    main .main-section .main-container .horario p {
+        font-size: 1.8rem;
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 2.1rem;
+        color: black;
+        
+    }
+
+    main .main-section .main-container .requi p {
+        font-size: 2.2rem;
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 2.5rem;
+        color: black;
+        margin-top: 2% ;
+    }
+
+    main .main-section .main-container .list {
+        margin: 2%;
+        font-size: 2rem;
+        font-weight: 300;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 2.5rem;
+        color: black;
+    }
+
+    main .main-section  .texto p {
+        font-size: 2.2rem;
+        font-weight: 300;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 2.5rem;
+        color: black;
+    }
+
+    main .main-section  .boton  {
+        background-color: #E84918;
+        width: 15%;
+        margin-top:2% ;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    main .main-section  .boton a {
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 1.6rem;
+        color: white;  
+    }
  
 }
