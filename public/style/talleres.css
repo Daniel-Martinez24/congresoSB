@@ -1,20 +1,18 @@
 @media only screen and (min-width: 600px) {
     #todos-los-talleres li {
-        width: 100%;
         margin-top: 2%;
         display: flex;
     }
     
     div h1 {
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 2.8rem;
         margin-top: 10%;
        
     }
     
     body #talleres div ul .todos-los-talleres  {
         border-radius: 10px;
-        background-color: white;
         border: 1px solid rgb(0, 102, 255);
         margin-left: 20px;
         margin-bottom: 20px;
