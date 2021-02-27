@@ -1,23 +1,24 @@
 @media only screen and (min-width: 600px) {
     #todos-los-talleres li {
+        width: 48%;
         margin-top: 2%;
         display: flex;
     }
     
     div h1 {
         text-align: center;
-        font-size: 2.8rem;
+        font-size: 1.8rem;
         margin-top: 10%;
        
     }
     
     body #talleres div ul .todos-los-talleres  {
         border-radius: 10px;
+        background-color: white;
         border: 1px solid rgb(0, 102, 255);
         margin-left: 20px;
-        margin-bottom: 20px;
-        padding: 10px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;    
+        padding: 2vh 2vh 4vh;
         list-style: none;
     }
     
@@ -28,6 +29,14 @@
     #talleres p {
         font-weight: 500;
     }
+
+    #talleres div ul {
+        display: flex;
+        list-style: none;
+        width: 92%;
+        flex-wrap: wrap;
+        margin: 0% 4%;
+    }
     
     #talleres div ul li {
         list-style: none;
@@ -35,11 +44,23 @@
     }
     #talleres div ul a {
         text-decoration: none;
-        color: rgb(57, 136, 238);
+        color: white;
+        background-color: #0B76F7;
+        padding: 1vh 2vh;
         font-weight: bold;
         margin-top: 40px;
         position: relative;
         top: 10px;    
+        border-radius: 10px;
+    }
+
+    #talleres .fechas-taller {
+        display: block;
+        margin: 0vh 0vh;
+        font-weight: bold;
+    }
+    #talleres .fechas-taller li {
+        font-weight: bold;
     }
 }
 
