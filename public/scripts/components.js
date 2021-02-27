@@ -8,7 +8,7 @@ function TalleresTarjeta(props) {
             <h2>{props.titulo}</h2>
             <p id="tallerista">{props.tallerista}</p> 
             
-            <ul>{Fechas} </ul>
+            <ul className="fechas-taller" >{Fechas} </ul>
             
             <a href={ '/taller.html?tallerID=' + props.id} > ver mas &gt; </a>
         </div>
