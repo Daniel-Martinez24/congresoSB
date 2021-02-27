@@ -91,7 +91,7 @@ const charlas = [
         fecha: 'lunes',
         horario: '16:00 - 17:05',
         foto: 'https://i.ibb.co/1GY5KJ3/IMG-3825-DENISSE-AYALA-HERNANDEZ.jpg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'por definir',
         id: '4'
     },
     {
@@ -100,7 +100,7 @@ const charlas = [
         fecha: 'miercoles',
         horario: '12:10 - 13-15',
         foto: 'https://i.ibb.co/RY1qYKS/LEONARDO-R-OS.png',
-        infoCharla: 'falta de rellanar',
+        infoCharla: 'por definirr',
         id: '5'
     },
     {
@@ -136,7 +136,7 @@ const charlas = [
         fecha: 'miercoles',
         horario: '14:20 - 15:25',
         foto: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/events/WhatsApp%20Image%202020-10-06%20at%205.20.43%20PM.jpeg',
-        infoCharla : 'falta ddefinir',
+        infoCharla : 'falta definir',
         id: '9'
     },
     {
