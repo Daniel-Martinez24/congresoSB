@@ -52,7 +52,7 @@ const talleres = [
         tallerista: 'Mtra. Paz Catalina Gutiérrez Rosas',
         fechas : [ 'sabado 17:05',],
         infoTaller: 'Vivimos en el Antropoceno, época geológica que refleja el impacto del hombre sobre la tierra. Añadiría que vamos de la mano con un microbioceno: evolucionamos entre microbios y a partir de ellos. Están en todas partes. Se mueven entre organismos, animales y humanos, entre el suelo, agua, aire, montañas y otros entornos, algunos extremos y remotos. Están en tu intestino y en tu boca, en la superficie de tu celular y en tu sopa. Conocer y aprender de los microbios nos regala una mirada al pasado, explica nuestro presente y nos ofrece múltiples recursos para el futuro. En el taller “Entre microbios te verás”, haremos una visita virtual al microbioma, repasaremos pasajes de la historia de los pioneros en observar microbios. Hablaremos de evolución, del dominio bacteriano y su contribución a las células eucariotas. Destacaremos algunas aplicaciones de los microbios a la remediación ambiental, la biotecnología, la industria y la investigación.',
-        requisitos: ['por definir'],
+        requisitos: ['No requiere'],
         verMas: '7'
     },
 ]
@@ -140,7 +140,7 @@ const charlas = [
         id: '9'
     },
     {
-        titulo: '¿Qué es y cómo funciona la Metodologías de Innovación FORTH?',
+        titulo: '¿Qué es y cómo funciona la Metodología de Innovación FORTH?',
         conferencista: 'Lic. Rubén Gabriel Vargas González',
         fecha: 'miercoles',
         horario: '16:00 - 17:05',
@@ -158,7 +158,7 @@ const charlas = [
         id: '11'
     },
     {
-        titulo: 'Ecotecnias desde la perspectiva de la economía ecológica y la economía ambiental: ¿La biología sintética para sanear la cuenca del Río Santiago',
+        titulo: 'Ecotecnias desde la perspectiva de la economía ecológica y la economía ambiental: ¿La biología sintética para sanear la cuenca del Río Santiago?',
         conferencista: 'C. Pedro Chávez Gómez',
         fecha: 'jueves',
         horario: '13:15 - 14:20',
@@ -175,7 +175,7 @@ const charlas = [
         id: '12'
     },
     {
-        titulo: 'Bioeconomía 4.0: Cómo la biotecnología va a transformar al mundo en 2030',
+        titulo: 'Bioeconomía 4.0: ¿Cómo la biotecnología va a transformar al mundo en 2030?',
         conferencista: 'Ing. Daniel Dominguez Gomez',
         fecha: 'jueves',
         horario: '14:20 - 15:25',
@@ -193,7 +193,7 @@ const charlas = [
         id: '14'
     },
     {
-        titulo: '¿Como ser un Biologo Sintetico en America Latina y sobrevivir en el intento?',
+        titulo: '¿Cómo ser un Biólogo Sintético en América Latina y sobrevivir en el intento?',
         conferencista: 'Mtro. Ricardo Camilo Chávez Martinez',
         fecha: 'viernes',
         horario: '12:10 - 13:15',
@@ -238,7 +238,7 @@ const charlas = [
         id: '19'
     },
     {
-        titulo: 'Birobótica',
+        titulo: 'Introducción a bioMEMS',
         conferencista: 'C. Noel Marcial Vazquez Sojo',
         fecha: 'sábado',
         horario: '14:20 - 15:25',
