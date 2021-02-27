@@ -12,7 +12,7 @@ const talleres = [
         tallerista: 'Dr. Luis Joel Figueroa Yañez',
         fechas : [ 'lunes 18:25', 'martes 18:25', 'miercoles 17:05'],
         infoTaller: 'info taller',
-        requisitos: ['por definir'],
+        requisitos: ['Imaginación'],
         id: '2'
     },
     {
@@ -44,7 +44,7 @@ const talleres = [
         tallerista: 'Lic. Diana Laura Vázquez Mendoza',
         fechas : [ 'viernes 17:05', 'domingo 7 18:25' ],
         infoTaller: 'faltan info',
-        requisitos: ['por definir'],
+        requisitos: ['Una nota periodística de un problema ambiental'],
         id: '6'
     },
     {
@@ -63,7 +63,7 @@ const charlas = [
         conferencista: 'Ing. Yamile Minerva Castellanos Morales',
         fecha: 'lunes',
         horario: '12:10 - 13:15',
-        foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+        foto: 'https://f6s-public.s3.amazonaws.com/profiles/2316486_original.jpg',
         infoCharla : 'Explorar los genomas de las bacterias y el uso de la secuenciación del genoma para rastrear enfermedades dañinas y resistencia a los antimicrobianos. Uno de los principales objetivos de la genómica de patógenos es determinar qué genes son importantes para que diferentes bacterias causen enfermedades. Al hacer esto, podemos comprender mejor cómo detenerlos. Mediante la secuenciación de genomas bacterianos, podemos identificar genes que causan enfermedades o ayudan a las bacterias a resistir los fármacos antimicrobianos.',
         id: '1'
     },
