@@ -82,7 +82,7 @@ const charlas = [
         fecha: 'lunes',
         horario: '14:20 - 15:25',
         foto: 'https://i.ibb.co/ccTCH0m/F-LIX-EUSEBIO-copia.jpg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'por definir',
         id: '3'
     },
     {
@@ -127,7 +127,7 @@ const charlas = [
         fecha: 'miercoles',
         horario: '12:10 - 13:15',
         foto: 'https://i.ibb.co/3BmF1YP/Carlos-Adrian-Garcia-Zambrano.jpg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'por definir',
         id: '8'
     },
     {
@@ -136,7 +136,7 @@ const charlas = [
         fecha: 'miercoles',
         horario: '14:20 - 15:25',
         foto: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/events/WhatsApp%20Image%202020-10-06%20at%205.20.43%20PM.jpeg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'falta ddefinir',
         id: '9'
     },
     {
