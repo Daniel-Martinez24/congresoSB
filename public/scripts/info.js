@@ -3,8 +3,8 @@ const talleres = [
         titulo: 'Taller de genética, genómica y evolución',
         tallerista: 'Dr. Luis José Delaye Arredondo',
         fechas: ['lunes 17:05', 'martes 17:05'],
-        infoTaller: 'info taller',
-        requisitos: ['por definir'],
+        infoTaller: 'En este taller aprenderemos a encontrar información de genes y genomas en GenBank y a buscar genes/proteínas homólogas con BLAST. También aprenderemos a reconstruir la historia evolutiva de los genes y las proteínas con NGPhylogeny.fr y/o MEGAX. ',
+        requisitos: ['Computadora', 'Acceso a internet', 'Procesador de textos simple como "Bloc de notas" o Notepad++', 'software MEGAX (https://www.megasoftware.net)'],
         id: '1'
     },
     {
@@ -27,8 +27,8 @@ const talleres = [
         titulo: 'Genética : Un paso fuera del aula.',
         tallerista: 'Ing. Miguel Fernando Espitia Verdugo',
         fechas: ['miercoles 18:25', 'viernes 18:25', 'sabado 12:10'],
-        infoTaller: 'información',
-        requisitos: ['por definir'],
+        infoTaller: 'En este espacio deconstuireremos algunos conceptos de genética tocando temas como : La concepción del ADN como una maquina, el como se relaciona con las otras moléculas que nos conforman y su rol en la sociedad con el fin de brindarle al tallerista herramientas nuevas para comprender fenómenos actuales y publicaciones nuevas.',
+        requisitos: ['Computadora/tablet', 'calculadora', 'Excel (opcional)'],
         id: '4'
     },
     {
@@ -73,7 +73,7 @@ const charlas = [
         fecha: 'lunes',
         horario: '13:15 - 14:20',
         foto: 'https://i.ibb.co/xGF6Fjp/Heber-Formal-Heber-Torres.jpg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'por definir',
         id: '2'
     },
     {
@@ -82,7 +82,7 @@ const charlas = [
         fecha: 'lunes',
         horario: '14:20 - 15:25',
         foto: 'https://i.ibb.co/ccTCH0m/F-LIX-EUSEBIO-copia.jpg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'por definir',
         id: '3'
     },
     {
@@ -127,7 +127,7 @@ const charlas = [
         fecha: 'miercoles',
         horario: '12:10 - 13:15',
         foto: 'https://i.ibb.co/3BmF1YP/Carlos-Adrian-Garcia-Zambrano.jpg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'por definir',
         id: '8'
     },
     {
@@ -136,7 +136,7 @@ const charlas = [
         fecha: 'miercoles',
         horario: '14:20 - 15:25',
         foto: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/events/WhatsApp%20Image%202020-10-06%20at%205.20.43%20PM.jpeg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'falta ddefinir',
         id: '9'
     },
     {
@@ -162,8 +162,16 @@ const charlas = [
         conferencista: 'C. Pedro Chávez Gómez',
         fecha: 'jueves',
         horario: '13:15 - 14:20',
-        foto: '',
-        infoCharla : 'por definir',
+        foto: 'https://i.ibb.co/zPSwVfs/Foto-Pedro-Ecoloquio-Pedro-Ch-vez.jpg',
+        infoCharla :  'TEMAS POR ABORDAR:  '
+        + ' + ¿Qué es la economía ecológica y la economía ambiental?'
+        + ' + Diferencias y similitudes entre la economía ecológica y economía ambiental'
+        + ' + La cuenca del río Santiago desde la economía ambiental y economía ecológica'
+        + ' + La biología sintética como ecotecnia'
+        + ' + Impactos de las ecotecnias'
+        +' + Características que debe cumplir la biología sintética para considerarse una ecotécnia '
+        +' + ¿La biología sintética para sanear la cuenca del río Santiago ?'
+        ,
         id: '12'
     },
     {
