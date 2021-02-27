@@ -3,8 +3,8 @@ const talleres = [
         titulo: 'Taller de genética, genómica y evolución',
         tallerista: 'Dr. Luis José Delaye Arredondo',
         fechas: ['lunes 17:05', 'martes 17:05'],
-        infoTaller: 'info taller',
-        requisitos: ['por definir'],
+        infoTaller: 'En este taller aprenderemos a encontrar información de genes y genomas en GenBank y a buscar genes/proteínas homólogas con BLAST. También aprenderemos a reconstruir la historia evolutiva de los genes y las proteínas con NGPhylogeny.fr y/o MEGAX. ',
+        requisitos: ['Computadora', 'Acceso a internet', 'Procesador de textos simple como "Bloc de notas" o Notepad++', 'software MEGAX (https://www.megasoftware.net)'],
         id: '1'
     },
     {
@@ -73,7 +73,7 @@ const charlas = [
         fecha: 'lunes',
         horario: '13:15 - 14:20',
         foto: 'https://i.ibb.co/xGF6Fjp/Heber-Formal-Heber-Torres.jpg',
-        infoCharla : 'falta de rellanar',
+        infoCharla : 'por definir',
         id: '2'
     },
     {

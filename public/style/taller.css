@@ -1,12 +1,11 @@
 @media only screen and (min-width: 600px) {
-    main .main-section {
-        width: 100%;
+    #maintaller .main-section {
         height: auto;
         margin-top: 5%;
         padding: 3%;
     }
    
-    main .main-section .main-container .titulo-taller p  {
+    #maintaller .main-section .main-container .titulo-taller p  {
        font-size: 4.8rem;
        font-weight: 300;
        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -14,7 +13,7 @@
     }
     
 
-    main .main-section .main-container  .nombre p {
+    #maintaller .main-section .main-container  .nombre p {
         font-size: 3.4rem;
         font-weight: 300;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -25,7 +24,7 @@
         margin-top: 1%;
     }
 
-    main .main-section .main-container .horario p {
+    #maintaller .main-section .main-container .horario p {
         font-size: 1.8rem;
         font-weight: 500;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -34,7 +33,7 @@
         
     }
 
-    main .main-section .main-container .requi p {
+    #maintaller .main-section .main-container .requi p {
         font-size: 2.2rem;
         font-weight: 500;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -43,7 +42,7 @@
         margin-top: 2% ;
     }
 
-    main .main-section .main-container .list {
+    #maintaller .main-section .main-container .list {
         margin: 2%;
         font-size: 2rem;
         font-weight: 300;
@@ -52,7 +51,7 @@
         color: black;
     }
 
-    main .main-section  .texto p {
+    #maintaller .main-section  .texto p {
         font-size: 2.2rem;
         font-weight: 300;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -60,7 +59,7 @@
         color: black;
     }
 
-    main .main-section  .boton  {
+    #maintaller .main-section  .boton  {
         background-color: #E84918;
         width: 15%;
         margin-top:2% ;
@@ -69,7 +68,7 @@
         text-align: center;
     }
 
-    main .main-section  .boton a {
+    #maintaller .main-section  .boton a {
         text-decoration: none;
         font-size: 1.4rem;
         font-weight: 400;
