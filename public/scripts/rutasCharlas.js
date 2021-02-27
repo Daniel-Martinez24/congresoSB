@@ -12,8 +12,13 @@ function getParameterByName(name) {
 var charlaID = getParameterByName('charlaID');
 
 const idExiste = (infoCharla) => {
-    document.getElementById("img").src = infoCharla.foto;
+    document.getElementById("foto").src = infoCharla.foto;
     document.getElementById("titulo").innerText = infoCharla.titulo;
+
+    document.getElementById("conferencista").innerText = infoCharla.conferencista;
+    document.getElementById("fecha").innerText = infoCharla.fecha;
+    document.getElementById("horario").innerText = infoCharla.horario;
+    document.getElementById("infoCharla").innerText = infoCharla.infoCharla
 }
 
 const encontrarID = () => {
