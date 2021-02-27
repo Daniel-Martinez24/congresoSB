@@ -99,7 +99,7 @@ const charlas = [
         conferencista: 'Dr. Leonardo Rios Solis',
         fecha: 'miercoles',
         horario: '12:10 - 13-15',
-        foto: 'https://i2.wp.com/instyle.mx/wp-content/uploads/2020/04/ailor-moon.jpg?resize=1024%2C1024&ssl=1',
+        foto: 'https://i.ibb.co/RY1qYKS/LEONARDO-R-OS.png',
         infoCharla: 'falta de rellanar',
         id: '5'
     },
