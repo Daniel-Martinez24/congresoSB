@@ -11,16 +11,16 @@ const talleres = [
         titulo: 'Taller de Biología Sintética básica',
         tallerista: 'Dr. Luis Joel Figueroa Yañez',
         fechas : [ 'lunes 18:25', 'martes 18:25', 'miercoles 17:05'],
-        infoTaller: 'info taller',
-        requisitos: ['Imaginación'],
+        infoTaller: 'Se verán las tres partes básicas de la Biología Sintética, secuenciar, sintetizar y editar ácidos nucleicos.',
+        requisitos: ['No requiere'],
         id: '2'
     },
     {
         titulo: 'Taller básico de fotografía científica: La ciencia a través de un lente',
         tallerista: 'C. Kassandra Edith Muros Ramos',
         fechas : [ 'martes 14:20', 'miercoles 13:15' ],
-        infoTaller: 'Es un taller de introducción a los conceptos básicos de la fotografía como manejo de la luz, composición, encuadres, los elementos básicos de la comunicación visual. El analizar los principios de la fotografía científica y como es que se lleva acabo el proceso de documentación de un proyecto de investigación científica.',
-        requisitos: ['Hojas blancas', 'lapicero', 'dispositivo fotografico: cámara fotográfica profesional o en su caso dipositivo móvil', 'Adobe Lightroom'],
+        infoTaller: 'Es un taller de introducción a los conceptos básicos de la fotografía cómo manejo de la luz, composición, encuadres, los elementos básicos de la comunicación visual. El analizar los principios de la fotografía científica y como es que se lleva acabo el proceso de documentación de un proyecto de investigación científica.',
+        requisitos: ['Hojas blancas', 'Lapicero', 'Dispositivo fotografico: cámara fotográfica profesional o en su caso dipositivo móvil', 'Adobe Lightroom'],
         id: '3'
     },
     {
@@ -28,13 +28,13 @@ const talleres = [
         tallerista: 'Ing. Miguel Fernando Espitia Verdugo',
         fechas: ['miercoles 18:25', 'viernes 18:25', 'sabado 12:10'],
         infoTaller: 'En este espacio deconstuireremos algunos conceptos de genética tocando temas como : La concepción del ADN como una maquina, el como se relaciona con las otras moléculas que nos conforman y su rol en la sociedad con el fin de brindarle al tallerista herramientas nuevas para comprender fenómenos actuales y publicaciones nuevas.',
-        requisitos: ['Computadora/tablet', 'calculadora', 'Excel (opcional)'],
+        requisitos: ['Computadora/tablet', 'Calculadora', 'Excel (opcional)'],
         id: '4'
     },
     {
         titulo: 'Tu Pokédex en la vida real: Programa tu clasificador de animales con redes neuronales artificiales',
         tallerista: 'Lic. Rodolfo Ferro Pérez',
-        fechas : [ 'jueves 17:05', ],
+        fechas : [ 'jueves 17:05', 'jueves 18:25'],
         infoTaller: 'La inteligencia artificial (IA) se ha utilizado y continúa evolucionando para resolver muchos problemas, explorar diferentes dominios de la ciencia y desarrollar aplicaciones para el día a día. Seguro habrás notado que tu red social es capaz de encontrar tu rostro en fotografías e identificar a tus amigas y amigos. ¿Te has preguntado cómo funcionan estos algoritmos? En este taller aprenderemos el funcionamiento básico detrás y cómo podemos aplicarlo a un dominio específico: crear un clasificador de especies que puedes adaptar para tu propio conjunto de datos.',
         requisitos: ['Computadora', 'Conexión a internet'],
         id: '5'
@@ -43,7 +43,7 @@ const talleres = [
         titulo: 'Taller ¿Cómo hacer divulgación científica?',
         tallerista: 'Lic. Diana Laura Vázquez Mendoza',
         fechas : [ 'viernes 17:05', 'domingo 7 18:25' ],
-        infoTaller: 'faltan info',
+        infoTaller: 'por definir',
         requisitos: ['Una nota periodística de un problema ambiental'],
         id: '6'
     },
@@ -53,7 +53,7 @@ const talleres = [
         fechas : [ 'sabado 17:05',],
         infoTaller: 'Vivimos en el Antropoceno, época geológica que refleja el impacto del hombre sobre la tierra. Añadiría que vamos de la mano con un microbioceno: evolucionamos entre microbios y a partir de ellos. Están en todas partes. Se mueven entre organismos, animales y humanos, entre el suelo, agua, aire, montañas y otros entornos, algunos extremos y remotos. Están en tu intestino y en tu boca, en la superficie de tu celular y en tu sopa. Conocer y aprender de los microbios nos regala una mirada al pasado, explica nuestro presente y nos ofrece múltiples recursos para el futuro. En el taller “Entre microbios te verás”, haremos una visita virtual al microbioma, repasaremos pasajes de la historia de los pioneros en observar microbios. Hablaremos de evolución, del dominio bacteriano y su contribución a las células eucariotas. Destacaremos algunas aplicaciones de los microbios a la remediación ambiental, la biotecnología, la industria y la investigación.',
         requisitos: ['No requiere'],
-        verMas: '7'
+        id: '7'
     },
 ]
 
